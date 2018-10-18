@@ -17,7 +17,7 @@ Chapter 1:
 
 名词解释：
 关于shadow PC的介绍https://conferences.sigcomm.org/imc/2018/shadow/
-shadow PC是一个主要给学生“练手”的review平台，shadow PC 能够review会议论文，但他们的review 和真实review以及最后的录取与否的决定无关。也可以称为“模拟PC”。“shadow PC"与"PC"(真正审稿人)的区别，大概是"模拟联合国代表“和”联合国代表”的区别。
+shadow PC是一个主要给学生“练手”的review平台，本科生、博士生均可以报名。shadow PC 能够review会议论文，但他们的review 和真实review以及最后的录取与否的决定无关。也可以称为“模拟PC”。“shadow PC"与"PC"(真正审稿人)的区别，大概是"模拟联合国代表“和”联合国代表”的区别。
 
 
 IEEE TNSM：3区期刊，这个期刊在网上查到的影响因子是0.000（参见附加的文件），貌似这个是因为最近经过了一次改名，实际影响因子按改名前数据，在1~2左右。不过对于期刊而言，审稿人是可以编辑随意推荐的，因此这只能说明他导师比较厉害。
@@ -171,13 +171,14 @@ Chapter 5 & 6:
 
 
 最后再发一遍清华特奖需要的科研要求：
-1：一作CCF C类会议ICC 一篇
+1：一作顶级CCF C类会议ICC 一篇
 2：一作CCF 未收录会议SOSR 一篇
 3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),可得 ACM SIGCOMM demo and poster 一作一篇
 4：三作（“学生第二作者“）一区会议JACS 一篇
 5：三作（”学生第二作者“）IWQOS一篇
 6：六作 CCF 未收录会议APNet 一篇
 7：顶尖会议SIGCOMM 第三acknowledgement 一篇
-
+8：注册成为顶级CCF C类会议Shadow PC
+9：让导师给一个三区期刊TNSM的审稿人资格
 
 
