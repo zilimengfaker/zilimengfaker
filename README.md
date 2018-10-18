@@ -31,7 +31,7 @@ ACM 学生研究竞赛是一项学生研究竞赛，分为决赛和预赛。按�
 该同学获奖的比赛是ACM SIGCOMM学生研究竞赛，在ACM SIGCOMM 学生研究竞赛的介绍中写了会推荐优秀参赛者参加ACM学生研究竞赛，因此在ACM SIGCOMM学生研究竞赛应该是一个预赛，只是不知道推荐”优秀参赛者”参加的是ACM学生研究竞赛的预赛还是决赛。
 ACM SIGCOMM学生研究竞赛的要求是学生报名，然后提交一份SIGCOMM poster and demo, 学生必须是一作，如果不止一个学生参赛，则需要有一个指导老师也署名在这份poster and demo上。这份poster and demo的abstract上限为100词，正文的下限是2页或者800单词（常规的会议学术论文一般为6~12页），必然会发表在ACM SIGCOMM poster and demo上。然后进行评审。参赛者按本科生和研究生分组进行评审。报名的学生必须是ACM member。
 ACM member是一个交钱就可以注册的https://www.acm.org/membership/join
-学生的年费约为10美元。
+学生的年费约为8美元。
 根据这项比赛的介绍，可以认为ACM SIGCOMM poster and demo一作=参加了ACM SIGCOMM学生研究竞赛。
 我找不到公开的ACM SIGCOMM学生研究竞赛的获奖名单，不知道这位同学是否实际获奖。但鉴于他发表了一份ACM SIGCOMM poster and demo一作，可以认为他确实支付了注册费，成为了ACM member，参加了比赛，并投稿了一篇至少800英文单词的poster。
 
@@ -89,5 +89,19 @@ Chapter 3:
 走向世界，我希望在国际舞台上展示清华人的实力。
 
 关于CCF会议分类https://www.ccf.org.cn/xspj/gyml/
-SOSR是
+SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有出现，当然也不能据此就说他是不入流的会议，有些顶级会议，如ICLR，也没有在CCF评级系统里出现。在网上查到SOSR会议的h-index在7左右，确实也不如普通的C类会议（作为对比，前面说的SIGCOMM约是75）。关于会议的h-index，大致可以在https://www.scimagojr.com/journalsearch.php上搜索，不过也只是一个度量，不能完全依照这个评价会议的好坏。
+这篇是我们的zili meng同学的第一篇一作文章。当然，这篇文章也列在了参考资料中（SOSR.pdf)，全文2页且有4个参考文献，是否体现特奖大神高超的科研水平，就见仁见智了。
+那么我们来看一下孟大神的第二篇一作文章——ICC。ICC全称是IEEE International Conference on Communications，在CCF中分级为C类（h-index约为23），我查了一下清华校内的”重要国际会议目录“（2013年版）（这个目录就不公开了，清华同学如果有论文，应该对这个目录有所了解），在计算机科学与技术系的列表中，此会议排C档，第192名。在电子工程系的重要国际学术会议列表中，排”顶尖“档，第2名，在自动化系的重要国际学术会议中，排B档，第10名。在交叉信息研究院的重要国际会议列表中，该会议未出现在68个会议中。
+这里值得一提的是，这位同学的导师 Jun Bi，是网络科学与空间研究院的老师，而这个网络科学与空间研究院，是近来从计算机科学与技术系中分离出来的。Jun Bi老师本人，也是从计算机系毕业后在清华任教的。所以应该遵守哪套规则，按照导师还是学生所归属的院系来划定论文的等级，我也不好随意指摘。
+其实，论文所属的会议等级本不重要，而论文的内容才是真正重要的。我也把此论文附在附件中(coco.pdf)，诸君见仁见智。这篇文章写的略长，有6页半和28个参考文献。
+关于"我的第三篇一作论文也被前述公认排名第一会议 SIGCOMM18（《清华目录》顶尖级会议）录取，我也受
+邀赴匈牙利向大会展示自己的成果。”，就是指名为PAM: When Overloaded, Push Your Neighbor Aside！的这篇SIGCOMM demo and poster文章，也附在附件中（sigcommposter.pdf)，此文章有两页和7个参考文献。根据前述对于ACM SIGCOMM 学生研究竞赛的描述，可以认为这篇poster其实等同于“该同学参加了ACM SIGCOMM 学生研究竞赛”，或“该同学是一个ACM member"。花50RMB一年，任意中国学生就可以在https://services.acm.org/public/qj/proflevel/SChinaLevel.html上注册。然后就可以报名参加一次ACM SIGCOMM 学生研究竞赛，报名了就可以提交并必被接收一份ACM SIGCOMM demo and poster，然后就可以在论文列表中隐去demo and poster而只写ACM SIGCOMM，成为万众敬仰的特奖大神。
+清华特奖，你值得拥有！
+“一作在投论文什么的”无法查证是否投稿，也不一定被接收，也没什么好分析的。而且特奖评选规则里也说只计算已发表论文。
+
+那么，我们就得到了
+
+
+
+
 
