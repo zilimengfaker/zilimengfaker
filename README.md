@@ -16,12 +16,14 @@ Chapter 1:
 
 
 名词解释：
+
 关于shadow PC的介绍https://conferences.sigcomm.org/imc/2018/shadow/
 shadow PC是一个主要给学生“练手”的review平台，本科生、博士生均可以报名。shadow PC 能够review会议论文，但他们的review 和真实review以及最后的录取与否的决定无关。也可以称为“模拟PC”。“shadow PC"与"PC"(真正审稿人)的区别，大概是"模拟联合国代表“和”联合国代表”的区别。
 
 
 IEEE TNSM：3区期刊，这个期刊在网上查到的影响因子是0.000（参见附加的文件），貌似这个是因为最近经过了一次改名，实际影响因子按改名前数据，在1~2左右。不过对于期刊而言，审稿人是可以编辑随意推荐的，因此这只能说明他导师比较厉害。
 关于计算机相关领域，与传统理工科不同，一般认为会议重要于期刊。
+
 
 ACM SIGCOMM 学生研究竞赛：
 关于ACM SIGCOMM学生研究竞赛的介绍http://conferences.sigcomm.org/sigcomm/2018/src.html
@@ -61,8 +63,11 @@ SIGCOMM17相关论文可以参见SIGCOMM2017-1.pdf, 题名叫NFP:Enabling Networ
 很多科学家会在论文中感谢自己的父母子女亲人或者配偶等，因此，如果这”第三acknowledgement"可以算作很好的科研成果的话，有一种方法似乎更容易造就“科研大牛”——学生进入学校后，就开始勾搭异性青年教授，争取喜结连理。然后让青年教授发表的每一篇文章都在acknowledgement中感谢自己，这样岂不是更容易成为“科研大牛”，真应该让京东研究人员的每一篇论文都感谢章泽天，这样章泽天的成果就成了“Zili Meng"的几十倍，清华欠章泽天几十个特奖！
 
 关于IEEE JSAC的文章——JSAC是一个好期刊，确实是一区期刊，影响因子高达7.2。我们来看看这篇文章的标题Enabling NFV Elasticity Control with Optimized Flow Migration（文章见附件ofm-jsac.pdf）。一般在发表顶级会议论文后，会再做一些改进来投一个顶级期刊。对比这两篇文章和前面的SIGCOMM论文的内容和第一作者，可以发现这篇文章很大程度上就是这一个类型的文章。
+
 在这位同学的陈述中，他是”学生第二作者“。这个词非常新鲜，因为我们一般只听说过”第X作者“，”通讯作者“，偶尔能听到“学生第一作者”，那这个导师大概率不太地道，抢了学生的一作，那学生只好说他是“学生第一作者”，学生中贡献最大的，来突出贡献。
+
 那么我们来看一看“学生第二作者”实际是什么意思呢？
+
 这篇文章有几个作者，Chen Sun, Jun Bi, Zili Meng, Tong Yang, Xiao Zhang, Hongxin Hu。 “Zili Meng"排第三个。
 原来是三作，因此，我们从这位同学的材料中，发现了”三作“的别称——“学生第二作者”。各位同学，特奖大神出马，告诉你们以后不要说“三作”了，而要说“学生第二作者”。同学们，你们学到了么？
 
@@ -89,25 +94,40 @@ Chapter 3:
 走向世界，我希望在国际舞台上展示清华人的实力。
 
 关于CCF会议分类https://www.ccf.org.cn/xspj/gyml/
+
 SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有出现，当然也不能据此就说他是不入流的会议，有些顶级会议，如ICLR，也没有在CCF评级系统里出现。在网上查到SOSR会议的h-index在7左右，确实也不如普通的C类会议（作为对比，前面说的SIGCOMM约是75）。关于会议的h-index，大致可以在https://www.scimagojr.com/journalsearch.php上搜索，不过也只是一个度量，不能完全依照这个评价会议的好坏。
+
 这篇是我们的zili meng同学的第一篇一作文章。当然，这篇文章也列在了参考资料中（SOSR.pdf)，全文2页且有4个参考文献，是否体现特奖大神高超的科研水平，就见仁见智了。
+
 那么我们来看一下孟大神的第二篇一作文章——ICC。ICC全称是IEEE International Conference on Communications，在CCF中分级为C类（h-index约为23），我查了一下清华校内的”重要国际会议目录“（2013年版）（这个目录就不公开了，清华同学如果有论文，应该对这个目录有所了解），在计算机科学与技术系的列表中，此会议排C档，第192名。在电子工程系的重要国际学术会议列表中，排”顶尖“档，第2名，在自动化系的重要国际学术会议中，排B档，第10名。在交叉信息研究院的重要国际会议列表中，该会议未出现在68个会议中。
+
 这里值得一提的是，这位同学的导师 Jun Bi，是网络科学与空间研究院的老师，而这个网络科学与空间研究院，是近来从计算机科学与技术系中分离出来的。Jun Bi老师本人，也是从计算机系毕业后在清华任教的。所以应该遵守哪套规则，按照导师还是学生所归属的院系来划定论文的等级，我也不好随意指摘。
+
 其实，论文所属的会议等级本不重要，而论文的内容才是真正重要的。我也把此论文附在附件中(coco.pdf)，诸君见仁见智。这篇文章写的略长，有6页半和28个参考文献。
+
 关于"我的第三篇一作论文也被前述公认排名第一会议 SIGCOMM18（《清华目录》顶尖级会议）录取，我也受
 邀赴匈牙利向大会展示自己的成果。”，就是指名为PAM: When Overloaded, Push Your Neighbor Aside！的这篇SIGCOMM demo and poster文章，也附在附件中（sigcommposter.pdf)，此文章有两页和7个参考文献。根据前述对于ACM SIGCOMM 学生研究竞赛的描述，可以认为这篇poster其实等同于“该同学参加了ACM SIGCOMM 学生研究竞赛”，或“该同学是一个ACM member"。花50RMB一年，任意中国学生就可以在https://services.acm.org/public/qj/proflevel/SChinaLevel.html上注册。然后就可以报名参加一次ACM SIGCOMM 学生研究竞赛，报名了就可以提交并必被接收一份ACM SIGCOMM demo and poster，然后就可以在论文列表中隐去demo and poster而只写ACM SIGCOMM，成为万众敬仰的特奖大神。
+
 清华特奖，你值得拥有！
+
 “一作在投论文什么的”无法查证是否投稿，也不一定被接收，也没什么好分析的。而且特奖评选规则里也说只计算已发表论文。据他自称获得了ACM SIGCOMM 学生研究竞赛的本科生中的第一名，这个我难以查证，欢迎补充相关信息和官方获奖列表。不过这个比赛其实相当于ACM 学生研究竞赛的预赛，而在决赛ACM 学生研究竞赛中，并没有zili meng的获奖名录。这篇两页7个引用文献的poster得了本科生第一，说明该同学的学术能力在“本科生2页poster制作与演讲”中还是佼佼者，还是挺厉害的。
 
 另外，他还有一些其他论文，在APNet 2018（会议，未收录CCF） GEN: A GPU-Accelerated Elastic Framework for NFV中第六作者，在IWQOS（Intl Workshop on Quality of Service）（期刊，影响因子0.75左右）中有一篇“学生第二作者”（第三作者）文章OFM: Optimized Flow Migration for NFV Elasticity Control。
 
 那么，我们就得到了获得清华“科研创新”类特奖所需要的论文
+
 1：一作CCF C类会议ICC 一篇
+
 2：一作CCF 未收录会议SOSR 一篇
+
 3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),可得 ACM SIGCOMM demo and poster 一作一篇
+
 4：三作（“学生第二作者“）一区会议JACS 一篇
+
 5：三作（”学生第二作者“）IWQOS一篇
+
 6：六作 CCF 未收录会议APNet 一篇
+
 7：顶尖会议SIGCOMM 第三acknowledgement 一篇
 
 是不是一种碾压感油然而生？
@@ -117,6 +137,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 当然，“我还不满足于以上的荣誉“。特奖，才是大神以他碾压般的成果，争取的下一个荣誉。我们预祝大神节节胜利，依靠碾压般的成果，轻松夺得下一个目标！
 
 Chapter 4:
+
 国际领先——吾心所向 虽远必至：在今年 SIGCOMM 大会上，我不仅有一篇一作论文
 被录取，同时还以此参加了 SIGCOMM 学生研究竞赛。当时我作为大三学生，是包括博士、
 硕士等参赛者中年级最低的。经过数十位评委的多轮评审，我最终获得了学生研究竞赛低年
@@ -171,14 +192,23 @@ Chapter 5 & 6:
 
 
 最后再发一遍清华特奖需要的科研要求：
+
 1：一作顶级CCF C类会议ICC 一篇
+
 2：一作CCF 未收录会议SOSR 一篇
+
 3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),可得 ACM SIGCOMM demo and poster 一作一篇
+
 4：三作（“学生第二作者“）一区会议JACS 一篇
+
 5：三作（”学生第二作者“）IWQOS一篇
+
 6：六作 CCF 未收录会议APNet 一篇
+
 7：顶尖会议SIGCOMM 第三acknowledgement 一篇
+
 8：注册成为顶级CCF C类会议Shadow PC
+
 9：让导师给一个三区期刊TNSM的审稿人资格
 
 
