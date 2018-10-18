@@ -1,0 +1,87 @@
+html {
+  background-color: #f1f1f1;
+}
+body.container {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #ffffff;
+}
+.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.page-header {
+  margin: 0 0 20px;
+  border-bottom: 0;
+  padding-bottom: 10px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.page-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px 0 0;
+}
+.panel-subheading-other {
+  background-color: #fcf8e3;
+}
+.panel-subheading-session {
+  background-color: #ffebe6;
+}
+.panel-subheading-session a{
+  color: inherit;
+}
+.panel-subheading-other a{
+  color: inherit;
+}
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway,sans-serif;
+}
+img.logo {
+  max-height: 160px;
+  display: inline-block;
+  padding: 30px;
+}
+img.logo:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+span.label {
+	padding-top: .3em;
+}
+.list-group-session {
+	margin-bottom: 0;
+}
+
+/* 
+   btn-matrix for program page 
+   inspired by: https://stackoverflow.com/a/38267914
+*/
+.btn-matrix-2 > .btn:nth-child(2n+3) {
+  clear: left;
+  margin-left: 0;
+}
+.btn-matrix-2 > .btn:nth-child(n+3) {
+  margin-top: -1px;
+}
+.btn-matrix-2 > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.btn-matrix-2 > .btn:nth-child(2) {
+  border-top-right-radius: 4px !important;
+}
+.btn-matrix-2 > .btn:nth-last-child(2) {
+  border-bottom-left-radius: 4px !important;
+}
+.btn-matrix-2 > .btn:last-child {
+  border-top-right-radius: 0;
+}
+.btn-matrix-2 > .btn {
+  width: 50%;
+}
+.btn-matrix-2 {
+  width: 100%;
+}
+
