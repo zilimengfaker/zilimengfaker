@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://www.ccf.org.cn/xspj/gyml/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+  <meta name="description" content="CCF推荐排名,CCF推荐会议,中国计算机学会推荐国际学术会议和期刊目录">
+<meta name="keywords" content="CCF推荐排名,CCF推荐会议">
+	<title>关于目录-CCF推荐排名</title>
+	
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/bootstrap.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="${prefix("v3/css/animate.css")}" type="text/css" /> -->
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/font-awesome.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="${prefix("v3/css/font-opensans.css")}" type="text/css" /> -->
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/v3-framework.css" type="text/css">
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/v3-common.css" type="text/css">
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/v3-site.css" type="text/css">
+    <script>
+        var frontAppContext = 'https://www.ccf.org.cn/ccf/';
+        var siteID = "122";
+    </script>
+
+	<script src="./关于目录-CCF推荐排名_files/zcms_require.js" contextpath="https://www.ccf.org.cn/ccf/"></script><link rel="stylesheet" type="text/css" href="./关于目录-CCF推荐排名_files/zcms_components.css"><script type="text/javascript" src="./关于目录-CCF推荐排名_files/zcms_common.js"></script><script type="text/javascript" src="./关于目录-CCF推荐排名_files/en.js"></script><script type="text/javascript" src="./关于目录-CCF推荐排名_files/zcms_frontend.js"></script>
+
+	<script src="./关于目录-CCF推荐排名_files/bootstrap.min.js"></script>
+    <script>
+        if (isIE && ieVersion < 9 || isIE8) {
+            importJS('../v3/js/ie/html5shiv.js')
+            if (!isIE6 && !isIE7) {
+                importJS('../v3/js/ie/respond.min.js')
+            }
+            importJS('../v3/js/ie/excanvas.js')
+        }
+        if (/MSIE (6|7)\.0/.test(navigator.userAgent)) {
+            importCSS('../v3/css/bootstrap-ie6.css')
+            importJS('../v3/js/ie/bootstrap-ie6.js')
+        }
+        if (isIE && ieVersion < 9 || isIE8) {
+            importCSS('../v3/css/v3-site-ie.css')
+        }
+        if (inTouch) {
+            importJS('../v3/js/hammer.min.js')
+        }
+        importJS('../v3/js/responsiveslides.js')
+    </script><script type="text/javascript" src="./关于目录-CCF推荐排名_files/responsiveslides.js"></script>
+
+	 <script type="text/javascript" src="./关于目录-CCF推荐排名_files/v3_common.js"></script>
+    <script type="text/javascript" src="./关于目录-CCF推荐排名_files/v3_site.js"></script>
+    <script type="text/javascript" src="./关于目录-CCF推荐排名_files/slick.min.js"></script>
+    <script type="text/javascript" src="./关于目录-CCF推荐排名_files/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript" src="./关于目录-CCF推荐排名_files/jquery-select.js"></script>
+     <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/slick.css" type="text/css">
+   <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/style.css" type="text/css">
+    <link rel="stylesheet" href="./关于目录-CCF推荐排名_files/style-rel.css" type="text/css"> 
+    
+     
+<script src="./关于目录-CCF推荐排名_files/share.js"></script><link rel="stylesheet" href="./关于目录-CCF推荐排名_files/share_style0_32.css"><link rel="stylesheet" href="./关于目录-CCF推荐排名_files/share_popup.css"><link rel="stylesheet" href="./关于目录-CCF推荐排名_files/select_share.css"></head>
+<body>
+	
+<script>
+  function queryLucene(){
+    var query=$V("Query");
+    if(query==null||query==""){
+      return;
+    }
+    $("#LuceneSearchFrom").submit();
+  }
+  function mobileQueryLucene(){
+    var query=$V("MobileQuery");
+    if(query==null||query==""){
+      return;
+    }
+    $NS("Query",query);
+    $("#MobileLuceneSearchFrom").submit();
+  }
+  function memberLogin(){
+    var curURL= window.location.href;
+    window.location.href='https://www.ccf.org.cn/ccf/sso/memberSingleLogin?SiteID=122&Refer='+curURL;
+  }
+  
+  function memberLoginOut(){
+    $(document.body).append("<img height='0' width='0' src='"+'http://sso.ccf.org.cn/sso/logout.do'+"'>");
+    $(document.body).append("<img height='0' width='0' src='"+"https://www.ccf.org.cn/ccf/member/logout"+"'>");
+    setTimeout(function(){location.reload();},500);
+  }
+  
+  function toApply(eleId){
+    document.getElementById(eleId).click();
+  }
+  
+  $(function(){
+    Server.sendRequest("member/clickMyCCF", null, function(response) {
+      if (response.Status == 1) {
+        var name=response.MemberName;
+        $('#showMemberName').attr('style','color:#000;font-size:10px;');
+        $("#showMemberName").text( name+' 你好');
+        
+        $('#showmobileMemberName').attr('style','color:#000;font-size:10px;');
+        $("#showmobileMemberName").text( name+' 你好');
+        
+        /* 已登录 ,登录标签不显示*/
+        $("#loadshow").hide();
+        $("#loginshow").show();
+        
+        $("#mobileloadshow").hide();
+        $("#mobileloginshow").show();
+      } else {
+        /* 未登录 */
+        $("#loadshow").show();
+        $("#loginshow").hide();
+        $("#showmyccf").hide();		
+        
+        $("#mobileloadshow").show();
+        $("#mobileloginshow").hide();
+        $("#mobileshowmyccf").hide();		
+      }
+    });
+    
+  });
+  
+</script>
+<input type="hidden" id="CatalogName" value="计算机课程改革导教班（CCD)）">
+
+<div class="header hidden-sm hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="head p-t-md p-b-md">
+        <div class="col-md-5 col-lg-6">
+          <a href="https://www.ccf.org.cn/">
+            <img src="./关于目录-CCF推荐排名_files/logo.png" data-bd-imgshare-binded="1">
+          </a>
+        </div>
+        
+        <form id="LuceneSearchFrom" name="LuceneSearchFrom" method="get" action="https://www.ccf.org.cn/ccf/search/result">
+          <input type="hidden" id="SiteID" name="SiteID" value="122">
+          			<input type="hidden" id="SearchType" name="SearchType" value="2">
+          <div class="col-md-4">
+            <div class="search-query clear m-t">
+              <input class="search-text pull-left" type="text" id="Query" name="Query" value="">
+              <input class="search-submit pull-right" type="button" onclick="queryLucene()">
+            </div>
+          </div>
+        </form>
+        
+        <div class="col-md-3 col-lg-2 lging-box">
+          <div class="joinCCF">
+            <div class="btn-group btn-CCF m-t" id="loadshow">
+              <a href="http://web.ccf.org.cn/CCF/reg.action?flag=0" class="btn btn-default">加入CCF</a>
+              <a id="memberLogin" href="https://www.ccf.org.cn/xspj/gyml/#;" class="btn btn-default pull-left" onclick="memberLogin()">登录CCF</a>
+            </div>
+            <div class="btn-group btn-CCF m-t" id="loginshow" style="display:none;">
+              <a href="https://www.ccf.org.cn/xspj/gyml/#;" class="btn btn-default myCCFBtn">我的CCF&nbsp;∨</a>
+            </div>
+            <ul class="list-unstyled ccfBtnDown" id="showmyccf" style="display: none;">
+              <li><a id="showMemberName"></a></li>
+              <li><a target="_blank" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00006">信息管理</a></li>
+              <li><a target="_blank" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00021">会员交费</a></li>
+              <li><a href="https://www.ccf.org.cn/ccf/member/favorites?Type=Content&amp;Current=MemberFavorites&amp;SiteID=122">我的收藏</a></li>
+              <li><a href="https://www.ccf.org.cn/ccf/PersonalCenter/Contribute?SiteID=122">会员投稿</a></li>
+              <li><a href="https://www.ccf.org.cn/ccf/PersonalCenter/Footprints?SiteID=122">我的足迹</a></li>
+              <li><a href="https://www.ccf.org.cn/ccf/member/linkMyAttention?SiteID=122">我的关注</a></li>
+              <li><a href="https://www.ccf.org.cn/xspj/gyml/#" onclick="memberLoginOut();">退出</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-bg">
+    <div class="container">
+      <ul class="index-nav list-unstyled">
+        <!--活动会议  -->
+        
+          <li id="001295" class="m-li m1">                                                                                                                                    
+            <h3>活动会议</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    <div class="row">
+                      <!--活动会议中的活动日历  -->
+                      
+                        
+                              
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/ccf/eventCalendarSearch/result?SiteID=122">活动日历</a>                                        
+                          
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="http://cncc.ccf.org.cn/">CNCC</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/yocsef/">YOCSEF</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/events/adl/">ADL</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="http://www.noi.cn/">NOI</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="http://cspro.org/lead/application/ccf/login.jsp">CSP</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tf/">TF</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/ccsp/">CCSP</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/events/zjgx/">走进高校</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/events/llfp/">吕梁扶贫</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://yef2018.yocsef.org.cn/">青年精英大会</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/hytjhy/">会员推荐会议</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/hyzw/">专委会议·征文</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/wljy2017/">未来计算机教育峰会</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/-jsjkcggdjb/">计算机课程改革导教班</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/yess/index/">青年人才发展计划</a>
+                            
+                          
+                          
+                          
+                            
+                              <a class="col-md-6 text-left" target="_blank" href="http://dragonstar.ict.ac.cn/dragonstar/index.asp">龙星计划</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/history/">中国计算机历史记忆</a>
+                            
+                          
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 meeting-list">
+                  <ul class="list-unstyled">
+                    <!-- 活动日历 -->
+                    
+                                                    
+                        <li><a href="https://www.ccf.org.cn/c/2018-10-08/653060.shtml">2018-11-23 首届中国区块链技术大会（CCF CBC2                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-09-07/651935.shtml">2018-09-14 2018年CCF合肥为新研究生导航活动                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-08-27/651683.shtml">2018-09-19 ADL96《知识图谱和图数据的管理方                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-08-24/651674.shtml">2018-08-28 CCF苏州“金鸡报晓”系列活动  人                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-08-22/651515.shtml">2018-09-17 ADL95《大数据环境下内存存储与内                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-08-20/651241.shtml">2018-08-26 ADL92 《自然语言理解：新学习方法                                   
+                          </a></li>                              
+                        <li><a href="https://www.ccf.org.cn/c/2018-08-20/651240.shtml">2018-09-15 ADL94《群智协同计算》开始报名                                   
+                          </a></li>
+                                                       
+                  </ul>
+                  <div class="text-left m-t-md">
+                    <a href="https://www.ccf.org.cn/events/hdrl/">[查看更多会议安排]</a></div>
+                </div>
+                <div class="col-md-4 meeting-list">
+                  <!-- 会议征文 -->
+                  <ul class="list-unstyled">
+                    
+                      
+                          <li><a href="https://www.ccf.org.cn/c/2018-10-16/653183.shtml">• CCF BDCI 2018即将开赛，火热报名中！                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-09-17/652669.shtml">• 2018CCF第八届全国文字与计算学术研讨会                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-08-14/651176.shtml">• 第35届全国数据库学术会议（NDBC 2018）                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-08-01/650756.shtml">• 2018年CCF中文信息技术专委会增选通知                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-07-25/646263.shtml">• 注册CTC18！ 和20多位Fellow一起洞见关键                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-07-13/644964.shtml">• 会议通知：2018自主可控计算机大会                                   
+                          </a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-07-13/644961.shtml">• 第三届语言与智能高峰论坛——邀您参会                                   
+                          </a></li>                                    
+                    
+                  </ul>
+                  <div class="text-left m-t-md"> <a href="https://www.ccf.org.cn/events/hyzw/">[查看更多专委会议·征文]</a></div>                                                          
+                </div>
+              </div>
+            </div>
+          </li> 
+        <!-- 新闻动态 -->
+        
+          <li id="001294" class="m-li m2">
+            <h3>新闻动态</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    <div class="row">
+                      
+                        
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/news/ccfjj/">CCF聚焦</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/news/xwlb/">新闻列表</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/xwdt_zt/">专题</a>
+                      
+                      
+                      
+                
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 meeting-list">                  
+                  <!-- CCF新闻列表  7个-->
+                  <ul class="list-unstyled">
+                    
+                                                         
+                        <li><a href="https://www.ccf.org.cn/c/2018-06-27/631058.shtml">• ADL91《智能无线感知》开始报名</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-07-04/644428.shtml">• 关于提名2018年度“CCF职业教育优秀工作者奖</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-07-04/644429.shtml">• 关于推荐2018年度“CCF职业教育优秀学生奖”</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-05-17/629099.shtml">• 关于CCF职业教育发展委员会 2018年度职业教育</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-10-18/653285.shtml">• 关于CCF开展双导师制研究生联合培养计划的函</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-10-16/653195.shtml">•  ADL97《图计算》开始报名了</a></li>                                   
+                        <li><a href="https://www.ccf.org.cn/c/2018-10-16/653194.shtml">• ADL 93《计算机视觉》开始报名了</a></li>
+                    
+                  </ul>
+                  <div class="text-left"><a href="https://www.ccf.org.cn/news/xwlb/">[查看更多新闻动态]</a></div>
+                </div>
+                <div class="col-md-4 meeting-media">
+                  <!-- 聚焦新闻 -->
+                  
+                    
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://www.ccf.org.cn/c/2018-09-03/651905.shtml"><img src="./关于目录-CCF推荐排名_files/84662_93x61c.jpg" style="width:93px;height:61;" class="img-responsive" data-bd-imgshare-binded="1"></a>
+                        </div>
+                        <div class="media-body"><h3><a href="https://www.ccf.org.cn/c/2018-09-03/651905.shtml">CCF关于学会会员参加学术会议  就餐食物中毒事件的声明</a></h3></div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://www.ccf.org.cn/c/2018-08-20/651232.shtml"><img src="./关于目录-CCF推荐排名_files/83141_93x61c.jpg" style="width:93px;height:61;" class="img-responsive" data-bd-imgshare-binded="1"></a>
+                        </div>
+                        <div class="media-body"><h3><a href="https://www.ccf.org.cn/c/2018-08-20/651232.shtml">CNCC2018，60场分论坛你期待遇见什么？ </a></h3></div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://www.ccf.org.cn/c/2018-10-16/653199.shtml"><img src="./关于目录-CCF推荐排名_files/88417_93x61c.png" style="width:93px;height:61;" class="img-responsive" data-bd-imgshare-binded="1"></a>
+                        </div>
+                        <div class="media-body"><h3><a href="https://www.ccf.org.cn/c/2018-10-16/653199.shtml">YOCSEF CLUB“走进欢娱影视”活动成功举办</a></h3></div>
+                      </div>                                                                   
+                   
+                </div>
+              </div>
+            </div>
+          </li>
+        
+        <!-- 会员 -->
+        
+          <li id="001296" class="m-li m3">
+            <h3>会员</h3>
+            
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    <div class="row">                          
+                      
+                        
+                              
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/xspj/gyml/#;" onclick="memberLogin()">会员登录</a>
+                          
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00006">会员信息管理</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://web.ccf.org.cn/CCF/reg.action?flag=0">加入CCF</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00021">会员交费</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/c/2016-11-19/533528.shtml">会员条例</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/c/2017-03-07/584831.shtml">会员权益</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/membership/rhwd/">入会问答</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/membership/hyfc/hs/">会员风采</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/membership/ttmembership/">团体会员</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://sso.ccf.org.cn/CCF/hytj.htm">会员推荐会员</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/membership/tjjrieeecs-acm/">特价加入IEEE CS</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tjjracm/">特价加入ACM</a>
+                            
+                          
+                          
+                          
+                            
+                            <a class="col-md-6 text-left" href="http://webtest.ccf.org.cn/ccf/member/linkMyAttention?SiteID=122">我的CCF</a>
+                            
+                          
+                                                       
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 meeting-list">
+                  <div class="row">
+                    <ul class="col-md-6 list-unstyled">
+                      
+                        
+                          <li><a href="https://www.ccf.org.cn/c/2018-09-29/653020.shtml">• CCF表彰108名高校宣传员</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2018-07-31/650706.shtml">• 60位CCF专业会员晋升高级会员</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-11-27/620036.shtml">• 第五届太湖论坛——“自主可控大数据平台及应</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-11-21/619909.shtml">• CCF表彰109名高校宣传员</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-10-12/615634.shtml">• 让会员成为推广CCF的大使 ——“CCF人”（1）</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-07-20/601948.shtml">•  是谁在悄然壮大CCF会员队伍</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-07-05/599890.shtml">• CCF会员享受专属滴滴专车乘车福利</a></li>
+                      
+                    </ul>
+                    <ul class="col-md-6 list-unstyled">
+                      
+                      
+                        
+                          <li><a href="https://www.ccf.org.cn/c/2017-07-04/599670.shtml">• CCF战略合作滴滴出行 共建大数据联合实验室</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-06-07/596843.shtml">• 会员优先</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-05-18/595638.shtml">• 2017年度第一次CCF高级会员申请启动</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-04-13/591348.shtml">• CCF分部发布200+场活动 会员享受“门前”服务</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-03-13/586466.shtml">• CCF@U481：袁晓如走进北京工商大学</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-03-13/586465.shtml">• CCF@U480：臧根林走进合肥工业大学</a></li>
+                          <li><a href="https://www.ccf.org.cn/c/2017-03-13/586464.shtml">• CCF@U482：毕军走进国防科技大学</a></li>
+                      
+                    </ul>
+                  </div>
+                  
+                    <div class="text-left m-t-md"><a href="https://www.ccf.org.cn/news/xwlb/ccfzjgx/">[查看更多会员动态]</a></div>
+                                                 
+                </div>                              
+              </div>
+            </div>
+          </li>
+        
+        <!-- 数字图书馆 -->
+        
+          <li id="001292" class="m-li">
+            <h3>数字图书馆</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-12">
+                  <iframe src="./关于目录-CCF推荐排名_files/drop-down-menu.html" frameborder="0" scrolling="no" style="width:100%;height:280px;"></iframe>
+                </div>
+                <!--<div class="col-md-4">
+                  <div class="meeting-nav">
+                    <cms:catalog alias="sztsg">
+                      <h3 class="text-left"><a target="_blank" href="${Catalog.Link}">数字图书馆首页</a></h3>
+                    </cms:catalog>
+                    <div class="row">                                       
+                      <cms:catalog alias="sztsg" level="Child"> 
+                        <z:list>                                       
+                          <z:if condition="${Catalog.Name=='电子刊A'}">
+                            <a target="_blank" class="col-md-6 text-left" href="${Catalog.Link}">技术动态</a>
+                          </z:if>
+                          <z:else>
+                            <a target="_blank" class="col-md-6 text-left" href="${Catalog.Link}">${CataLog.Name}</a>
+                          </z:else>
+                        </z:list>
+                      </cms:catalog>   
+                    </div>
+                  </div>
+                </div> -->
+               <!-- <div class="col-md-4 meeting-list">
+                  <ul class="list-unstyled">
+                    
+                    <cms:article catalogalias="sztsg" count="7" type="Recent" level="CurrentAndChild">
+                      <z:list>
+                        <li>  <a target="_blank" href="${Article.Link}">• ${charWidth(Article.Title,42,'')}</a></li>
+                      </z:list>
+                    </cms:article>                                                                               
+                  </ul>
+                  <cms:catalog alias="sztsg">
+                    <div class="text-left m-t-md"><a target="_blank" href="${Catalog.Link}">[查看更多数字图书馆资源]</a></div>
+                  </cms:catalog>
+                </div> -->
+                <!-- <div class="col-md-4 meeting-media">
+                  <cms:video catalogid="15131" count="3" level="CurrentAndChild">    
+                    <z:list>      
+                      <div class="media">
+                        <div class="media-left">
+                          <a target="_blank" href="${Video.Link}"><img src="${imageSize(Video.LogoFile,93,61)}" style="width:93px;height:61px;" class="img-responsive" /></a>
+                          <img class="videoIcon center-block" src="${prefix("images/index-nav-videoIcon.png")}" />
+                        </div>
+                        <div class="media-body"><h3><a target="_blank" href="${Video.Link}">${charWidth(Video.Title,56,'')}</a></h3></div>
+                      </div>                           
+                    </z:list>  
+                  </cms:video>   
+                </div> -->
+              </div>
+            </div>
+          </li>
+        
+        <!--专业委员会  -->
+        
+          <li id="001297" class="m-li">
+            <h3>专业委员会</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    
+                      <h3 class="text-left"><a href="https://www.ccf.org.cn/tc/zwjj/">专业委员会主页</a></h3>
+                    
+                    <div class="row">
+                      
+                        
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/zwjj/">专委简介</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/gzwd/">工作问答</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/c/2016-11-30/550505.shtml">专委条例</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/zwpgbf/">专委评估办法</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/xggd/">相关规定</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/zlxz/">相关表单下载</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/tc/zwmd/dmtjstc/">专委名单</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/zwhyxw/">专委会议新闻</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/zwhyzw/">会议通知·征文</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 meeting-list">
+                  <ul class="list-unstyled">
+                    
+                      
+                        <li><a href="https://www.ccf.org.cn/c/2018-02-08/622980.shtml">• CCF表彰2017年度优秀专业委员会</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2018-01-15/622353.shtml">• CCF专委发展研讨暨工作交流会议在北京举行</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-12-05/620423.shtml">• 第六届CCF国际自然语言处理与中文计算会议在</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-11-10/618304.shtml">• 第十七届中国虚拟现实大会暨ICVRV 2017国际会</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-10-23/617354.shtml">• 中国计算机视觉大会(CCCV2017)在天津召开</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-10-23/617350.shtml">• 2017年全国理论计算机科学学术年会在武汉召开</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-09-21/612443.shtml">• 智能媒体、创新未来——中国多媒体大会在南京</a></li>
+                    
+                  </ul>
+                  <div class="text-left m-t-md"><a href="https://www.ccf.org.cn/news/xwlb/zw/">[查看更多专委动态]</a></div>
+                </div>
+                <div class="col-md-4 meeting-list">
+                  <ul class="list-unstyled">
+                    
+                      
+                        <li><a href="https://www.ccf.org.cn/c/2018-10-08/653060.shtml">2018.11.23    首届中国区块链技术大会（CCF CBC2</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2018-05-22/629147.shtml">2018.09.16    第十届亚太网构软件研讨会会议(Int</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2018-03-21/624285.shtml">2018.11.23    全国软件与应用学术会议（NASAC201</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2018-03-21/624284.shtml">2018.11.23    全国软件与应用学术会议（NASAC201</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-03-07/624282.shtml">    第八届全国可穿戴计算学术会议</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2018-03-21/624280.shtml">2018.11.22    计算机视觉研究与应用创新论坛(RAC</a></li>
+                        <li><a href="https://www.ccf.org.cn/c/2017-03-20/588670.shtml">2018.03.22    2018年中国网络信息安全高峰论坛</a></li>                                    
+                    
+                  </ul>
+                  <div class="text-left m-t-md"> <a href="https://www.ccf.org.cn/events/hdrl/zw/">[查看更多专委活动计划]</a></div>
+                </div>
+              </div>
+            </div>
+          </li>
+        
+                
+                  <li id="001302" class="m-li">
+                    <h3><a target="_blank" href="https://www.ccf.org.cn/gzwyhjj/">工作委员会</a></h3>
+                  </li>
+                
+                
+                  <li id="001298" class="m-li">
+                    <h3><a target="_blank" href="https://www.ccf.org.cn/chapters/">会员活动中心</a></h3>
+                  </li>
+                
+        
+          <!-- 奖励 -->
+          <li id="001299" class="m-li">
+            <h3>奖励</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    
+                      <h3 class="text-left"><a target="_blank" href="https://www.ccf.org.cn/awards/">奖励首页</a></h3>
+                    
+                    <div class="row">        
+                      
+                        
+                          
+                            		
+                            
+                              <a class="col-md-6 text-left" href="https://www.ccf.org.cn/awards/jldt/" target="_blank">奖励动态</a>
+                            										           
+                          
+                          
+                            		
+                            
+                              <a class="col-md-6 text-left" href="https://www.ccf.org.cn/awards/lnhjqk/2018/qb/" target="_blank">历年获奖名单</a>
+                            										           
+                          
+                          
+                                                                   
+                              
+                                
+                                  <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/c/2018-08-20/651191.shtml">奖项推荐</a>
+                                	
+                                				 					          
+                              			    	
+                            		
+                            										           
+                          
+                          
+                                                                   
+                              
+                                
+                                  <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/c/2016-12-03/552352.shtml">评奖条例</a>
+                                	
+                                				 					          
+                              			    	
+                            		
+                            										           
+                          
+                          
+                                                                   
+                              
+                                
+                                  <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/c/2016-12-14/555213.shtml">评奖机构</a>
+                                	
+                                				 					          
+                              			    	
+                            		
+                            										           
+                          
+                          
+                                                                   
+                              
+                                
+                                  <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/c/2017-01-04/570097.shtml">赞助单位</a>
+                                	
+                                				 					          
+                              			    	
+                            		
+                            										           
+                          
+                          
+                                                                   
+                              
+                                
+                                  <a class="col-md-6 text-left" target="_blank" href="https://www.ccf.org.cn/c/2016-12-03/552340.shtml">联系我们</a>
+                                	
+                                				 					          
+                              			    	
+                            		
+                            										           
+                                                                              
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 meeting-list">
+                  <ul class="list-unstyled">
+                    
+                      
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-10-15/653165.shtml">• 2018年度“CCF王选奖”评选结果公告</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-10-15/653162.shtml">• 2018年度“CCF-IEEE CS青年科学家奖”评选结</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-09-13/653160.shtml">• 2018年度“CCF海外杰出贡献奖”评选结果公告</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-10-14/653148.shtml">• 2018年度“CCF科学技术奖”评选结果公告</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-09-13/652357.shtml">• 2018年度“CCF海外杰出贡献奖”评选结果公告</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-08-20/651226.shtml">• 关于推荐2018年度“CCF优秀博士学位论文奖”</a></li>
+                        <li><a target="_blank" href="https://www.ccf.org.cn/c/2018-08-13/651168.shtml">• 科技创新报国，努力成为优秀</a></li>                           
+                    
+                  </ul>
+                  
+                    <div class="text-left m-t-md"><a target="_blank" href="https://www.ccf.org.cn/news/xwlb/jl/">[查看更多奖励新闻]</a></div>
+                  
+                </div>
+                <div class="col-md-4 meeting-media">
+                  <!--两个视频  -->
+                      
+                      
+                   
+                  <!-- 一个图集 -->           
+                  
+                    <div class="media">
+                      <div class="media-left">
+                        <a target="_blank" href="https://www.ccf.org.cn/c/2017-02-18/582070.shtml"><img src="./关于目录-CCF推荐排名_files/30315_93x61c.jpg" class="img-responsive" data-bd-imgshare-binded="1"></a>                                           
+                      </div>
+                      <div class="media-body"><h3><a target="_blank" href="https://www.ccf.org.cn/c/2017-02-18/582070.shtml">CCF颁发2016CCF卓越服务奖图集</a></h3></div>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+          </li>
+        
+        
+        
+        <!-- 关于CCF -->
+        
+          <li id="001293" class="m-li">    
+            <h3>关于CCF</h3>
+            <div class="sub container" style="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="meeting-nav">
+                    <div class="row">
+                       
+                        
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">CCF简介</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/about/tlyfg/">条例与法规</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/about/zzjg/lsh/">组织机构</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/c/2017-01-10/571276.shtml">联系我们</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/ccfjob/jrwm/">CCF招聘</a>
+                          <a class="col-md-6 text-left" href="https://www.ccf.org.cn/dj/">CCF党建</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 meeting-list">
+                  
+                    <p>　　中国计算机学会（CCF）成立于1962年，全国一级学会，独立社团法人，中国科学技术协会成员。
+中国计算机学会是中国计算机及相关领域的学术团体，宗旨是为本领域专业人士的学术和职业发展提供服务；推动学术进步和技术成果的应用；进行学术评价，引领学术方向；对在学术和技术方面有突出成就的个人和单位给予认可和表彰。</p>    
+                                                   
+                      <div class="text-left m-t-md"><a href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">[查看更多关于CCF内容]</a></div>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  /*jQuery(".index-nav").slide({ 
+				type:"menu", //效果类型
+				titCell:".m-li", // 鼠标触发对象
+				targetCell:".sub", // 效果对象，必须被titCell包含
+				effect:"slideDown",//下拉效果
+				delayTime:300, // 效果时间
+				triggerTime:0, //鼠标延迟触发时间
+				returnDefault:true,  //返回默认状态
+				trigger:"click"
+			});*/
+</script> 
+<!-- 移动端头部 -->
+
+<div class="visible-xs visible-sm">
+  <div class="head_xs index_head_xs">
+    <div class="logo_xs clearfix">
+      <div class="col-xs-12"><a onclick="toggleSidebar(this);" class="logo" href="https://www.ccf.org.cn/"><img src="./关于目录-CCF推荐排名_files/logo.png" class="img-responsive v-middle" alt="" data-bd-imgshare-binded="1"></a></div>
+      <div class="col-xs-12">
+        <div class="btn-group btn-CCF m-t-sm m-b-sm" id="mobileloadshow">
+          <a target="_blank" href="http://web.ccf.org.cn/CCF/reg.action?flag=0" class="btn btn-default">加入CCF</a>
+          <a id="memberLogin" href="javascript:memberLogin();" class="btn btn-default">登录CCF</a>
+        </div>
+        <div class="btn-group btn-CCF m-t" id="mobileloginshow" style="display:none;">
+          <a href="https://www.ccf.org.cn/xspj/gyml/#;" class="btn btn-default myCCFBtn">我的CCF&nbsp;∨</a>
+        </div>
+        
+        <ul class="list-unstyled ccfBtnDown" id="mobileshowmyccf" style="display: none;">
+          <li><a id="showmobileMemberName"></a></li>
+          <li><a target="_blank" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00006">信息管理</a></li>
+          <li><a target="_blank" href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00021">会员交费</a></li>
+          <li><a href="https://www.ccf.org.cn/ccf/member/favorites?Type=Content&amp;Current=MemberFavorites&amp;SiteID=122">我的收藏</a></li>
+          <li><a href="https://www.ccf.org.cn/ccf/PersonalCenter/Contribute?SiteID=122">会员投稿</a></li>
+          <li><a href="https://www.ccf.org.cn/ccf/PersonalCenter/Footprints?SiteID=122">我的足迹</a></li>
+          <li><a href="https://www.ccf.org.cn/ccf/member/linkMyAttention?SiteID=122">我的关注</a></li>
+          <li><a href="https://www.ccf.org.cn/xspj/gyml/#" onclick="memberLoginOut();">退出</a></li>
+        </ul>
+        <a class="btn_xs pull-right m-t-xs" onclick="$(&#39;#catalogNav&#39;).toggleClass(&#39;hidden-xs hidden-sm&#39;)" href="https://www.ccf.org.cn/xspj/gyml/#;"></a>
+        <!--<span class="soBtn"></span>-->
+      </div>
+    </div>
+    <!--  <div class="col-md-12">
+<div class="search-query clear m-t">
+<input class="search-text pull-left" type="text" />
+<input class="search-submit pull-right" type="submit" />
+</div>
+</div> -->
+    <!-- 搜索 -->
+    <div class="col-md-5">
+      <form id="MobileLuceneSearchFrom" name="MobileLuceneSearchFrom" method="get" action="https://www.ccf.org.cn/ccf/search/result">
+        <input type="hidden" id="SiteID" name="SiteID" value="122">
+        		<input type="hidden" id="SearchType" name="SearchType" value="2">
+        <div class="search-query clear m-t">
+          <input class="search-text pull-left" type="text" id="MobileQuery" name="MobileQuery">
+          <input class="search-text pull-left" type="hidden" id="Query" name="Query">
+          <input class="search-submit pull-right" type="button" onclick="mobileQueryLucene()">
+        </div>
+      </form>
+    </div>    
+    <!-- 活动会议 -->
+    <div class="hidden-xs hidden-sm catalogNav" id="catalogNav">
+      <ul class="list-unstyled catalogNav_list">
+        <li>
+          
+            <a href="https://www.ccf.org.cn/ccf/eventCalendarSearch/result?SiteID=122">活动会议</a>
+          
+          <ul class="list-unstyled">
+               
+                               
+                    
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/ccf/eventCalendarSearch/result?SiteID=122">活动日历</a></li>                                                        
+                
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="http://cncc.ccf.org.cn/">CNCC</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/yocsef/">YOCSEF</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/adl/">ADL</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="http://www.noi.cn/">NOI</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="http://cspro.org/lead/application/ccf/login.jsp">CSP</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/tf/">TF</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/ccsp/">CCSP</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/zjgx/">走进高校</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/llfp/">吕梁扶贫</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="http://yef2018.yocsef.org.cn/">青年精英大会</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/hytjhy/">会员推荐会议</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/events/hyzw/">专委会议·征文</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/wljy2017/">未来计算机教育峰会</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/-jsjkcggdjb/">计算机课程改革导教班</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/yess/index/">青年人才发展计划</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="http://dragonstar.ict.ac.cn/dragonstar/index.asp">龙星计划</a></li>
+                                 
+                
+                
+                  <li><a class="col-md-6 text-left" href="https://www.ccf.org.cn/history/">中国计算机历史记忆</a></li>
+                       
+            
+          </ul>          
+        </li>
+        <!-- 新闻动态 -->
+        <li>
+          
+            <a href="https://www.ccf.org.cn/news/ccfjj/">新闻动态</a>
+            <ul class="list-unstyled">
+              
+                
+                  <li><a href="https://www.ccf.org.cn/news/ccfjj/">CCF聚焦</a></li>
+                  <li><a href="https://www.ccf.org.cn/news/xwlb/">新闻列表</a></li>
+                  <li><a href="https://www.ccf.org.cn/xwdt_zt/">专题</a></li>
+              
+            </ul>
+          
+        </li>
+        
+        <!-- 会员 -->
+        <li>
+          
+            <a href="https://www.ccf.org.cn/c/2017-03-07/584831.shtml">会员</a>
+          
+          <ul class="list-unstyled">
+            
+              
+                    
+                  <li><a href="https://www.ccf.org.cn/xspj/gyml/#;" onclick="memberLogin()">会员登录</a></li>
+                
+                
+                
+                
+                  <li><a href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00006">会员信息管理</a></li>
+                
+                
+                
+                  <li><a href="http://web.ccf.org.cn/CCF/reg.action?flag=0">加入CCF</a></li>
+                
+                
+                
+                  <li><a href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00021">会员交费</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/c/2016-11-19/533528.shtml">会员条例</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/c/2017-03-07/584831.shtml">会员权益</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/membership/rhwd/">入会问答</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/membership/hyfc/hs/">会员风采</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/membership/ttmembership/">团体会员</a></li>
+                
+                
+                
+                  <li><a href="http://sso.ccf.org.cn/CCF/hytj.htm">会员推荐会员</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/membership/tjjrieeecs-acm/">特价加入IEEE CS</a></li>
+                
+                
+                
+                  <li><a href="https://www.ccf.org.cn/tjjracm/">特价加入ACM</a></li>
+                
+                
+                
+                  <li><a href="http://webtest.ccf.org.cn/ccf/member/linkMyAttention?SiteID=122">我的CCF</a></li>
+                
+            
+          </ul>
+          
+        </li>
+        <!-- 数字图书馆 -->
+        <li>
+          <a href="http://dl.ccf.org.cn/index.html">数字图书馆</a>
+          <!--<cms:catalog alias="sztsg">
+            <a href="${Catalog.Link}">${Catalog.Name}</a>
+          </cms:catalog> -->
+          <ul class="list-unstyled">
+            <li><a href="http://dl.ccf.org.cn:8585/institude/wxInstitudeIndex">通讯</a></li><a href="http://dl.ccf.org.cn:8585/institude/wxInstitudeIndex">
+              </a><li><a href="http://dl.ccf.org.cn:8585/institude/wxInstitudeIndex"></a><a href="http://dl.ccf.org.cn:8585/journal/journalIndex">期刊</a></li><a href="http://dl.ccf.org.cn:8585/journal/journalIndex">
+              </a><li><a href="http://dl.ccf.org.cn:8585/journal/journalIndex"></a><a href="http://dl.ccf.org.cn:8585/meeting/meetingIndex.html">会议</a></li><a href="http://dl.ccf.org.cn:8585/meeting/meetingIndex.html">
+                </a><li><a href="http://dl.ccf.org.cn:8585/meeting/meetingIndex.html"></a><a href="http://dl.ccf.org.cn:8585/books/booksList.html">图书</a></li><a href="http://dl.ccf.org.cn:8585/books/booksList.html">
+                  </a><li><a href="http://dl.ccf.org.cn:8585/books/booksList.html"></a><a href="http://dl.ccf.org.cn:8585/lecture/lectureIndex">讲稿</a></li><a href="http://dl.ccf.org.cn:8585/lecture/lectureIndex">
+                    </a><li><a href="http://dl.ccf.org.cn:8585/lecture/lectureIndex"></a><a href="http://dl.ccf.org.cn:8585/audioVideo/audioVideoList.html">音视频</a></li><a href="http://dl.ccf.org.cn:8585/audioVideo/audioVideoList.html">
+                      </a><li><a href="http://dl.ccf.org.cn:8585/audioVideo/audioVideoList.html"></a><a href="http://dl.ccf.org.cn:8585/atlas/atlas.html">图集</a></li><a href="http://dl.ccf.org.cn:8585/atlas/atlas.html">
+                        </a><li><a href="http://dl.ccf.org.cn:8585/atlas/atlas.html"></a><a href="http://dl.ccf.org.cn:8585/topic/index">专题</a></li><a href="http://dl.ccf.org.cn:8585/topic/index">
+            <!--<cms:catalog alias="sztsg" level="Child">
+              <z:list>                        
+                <z:if condition="${Catalog.Name=='电子刊A'}">
+                  <li><a href="${Catalog.Link}">电子刊</a></li>
+                </z:if>
+                <z:else>
+                  <li><a href="${Catalog.Link}">${Catalog.Name}</a></li>
+                </z:else>
+              </z:list>
+            </cms:catalog> -->
+          </a></ul><a href="http://dl.ccf.org.cn:8585/topic/index">
+          
+        </a></li><a href="http://dl.ccf.org.cn:8585/topic/index">
+        <!-- 专业委员会 -->
+        </a><li><a href="http://dl.ccf.org.cn:8585/topic/index">
+          
+            </a><a href="https://www.ccf.org.cn/tc/zwjj/">专委</a>
+          
+          <ul class="list-unstyled">
+            
+              
+                <li><a href="https://www.ccf.org.cn/tc/zwjj/">专委简介</a></li>
+                <li><a href="https://www.ccf.org.cn/tc/gzwd/">工作问答</a></li>
+                <li><a href="https://www.ccf.org.cn/c/2016-11-30/550505.shtml">专委条例</a></li>
+                <li><a href="https://www.ccf.org.cn/tc/zwpgbf/">专委评估办法</a></li>
+                <li><a href="https://www.ccf.org.cn/tc/xggd/">相关规定</a></li>
+                <li><a href="https://www.ccf.org.cn/tc/zlxz/">相关表单下载</a></li>
+                <li><a href="https://www.ccf.org.cn/tc/zwmd/dmtjstc/">专委名单</a></li>
+                <li><a href="https://www.ccf.org.cn/zwhyxw/">专委会议新闻</a></li>
+                <li><a href="https://www.ccf.org.cn/zwhyzw/">会议通知·征文</a></li>
+              
+          </ul>
+        </li> 
+         <li>
+          
+            <a href="https://www.ccf.org.cn/gzwyhjj/">工作委员会</a>
+          
+        </li>
+        <li>
+          
+            <a href="https://www.ccf.org.cn/chapters/">会员活动中心</a>
+          
+        </li>
+        
+        
+        <!--奖励   -->
+        <li>
+          
+            <a href="https://www.ccf.org.cn/awards/">奖励</a>
+          
+          <ul class="list-unstyled">
+            
+              
+                
+                  <li id="001299000001">    
+                    <a href="https://www.ccf.org.cn/awards/jldt/">奖励动态</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000002">    
+                    <a href="https://www.ccf.org.cn/awards/lnhjqk/2018/qb/">历年获奖名单</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000009">    
+                    <a href="https://www.ccf.org.cn/awards/jxtj/">奖项推荐</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000003">    
+                    <a href="https://www.ccf.org.cn/awards/pjtl/">评奖条例</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000008">    
+                    <a href="https://www.ccf.org.cn/awards/pjjg/">评奖机构</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000005">    
+                    <a href="https://www.ccf.org.cn/awards/zzdw/">赞助单位</a>
+                  </li>	    	  
+                
+                
+                  <li id="001299000006">    
+                    <a href="https://www.ccf.org.cn/awards/lxwm/">联系我们</a>
+                  </li>	    	  
+                
+            
+          </ul>
+        </li>
+        <!-- 关于CCF -->
+        <li>
+          
+            <a href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">关于CCF</a>
+          
+          <ul class="list-unstyled">
+            
+              
+                <li><a href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">CCF简介</a></li>
+                <li><a href="https://www.ccf.org.cn/about/tlyfg/">条例与法规</a></li>
+                <li><a href="https://www.ccf.org.cn/about/zzjg/lsh/">组织机构</a></li>
+                <li><a href="https://www.ccf.org.cn/c/2017-01-10/571276.shtml">联系我们</a></li>
+                <li><a href="https://www.ccf.org.cn/ccfjob/jrwm/">CCF招聘</a></li>
+                <li><a href="https://www.ccf.org.cn/dj/">CCF党建</a></li>
+             
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div> 
+    <!-- 主内容 -->
+    <div class="main m-b-md">
+   		<!-- <div class="title-main clear">
+   			<div class="container">
+   				<h3 class="pull-left">${Catalog.Name}</h3>
+   			</div>
+   		</div> -->
+    	<div class="container">
+			<div class="m-t-md m-b-md current">
+				您的位置：<a href="https://www.ccf.org.cn/">首页</a> &gt; <a href="https://www.ccf.org.cn/xspj/gyml/">学术评价</a> &gt; <a href="https://www.ccf.org.cn/xspj/gyml/">关于目录</a>
+			</div>
+            <div class="h hidden-xs hidden-sm"></div>
+    		<div class="focusList row">
+    			<div class="col-md-2">
+    			　　　
+	                    <ul class="g-ul m-snv">
+							
+	                        	<li id="001301000003" class=" on on"><a href="https://www.ccf.org.cn/xspj/gyml/">关于目录</a></li>
+	                        	<li id="001301000015"><a href="https://www.ccf.org.cn/jsjtxjgbxyfbjsccxt/">计算机体系结构/并行与分布计算/存储系统</a></li>
+	                        	<li id="001301000005"><a href="https://www.ccf.org.cn/xspj/jsjwl/">计算机网络</a></li>
+	                        	<li id="001301000006"><a href="https://www.ccf.org.cn/xspj/wlyxxaq/">网络与信息安全</a></li>
+	                        	<li id="001301000007"><a href="https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/">软件工程/系统软件/程序设计语言</a></li>
+	                        	<li id="001301000008"><a href="https://www.ccf.org.cn/xspj/sjk/sjwj/nrjs/">数据库/数据挖掘/内容检索</a></li>
+	                        	<li id="001301000009"><a href="https://www.ccf.org.cn/xspj/jsjkxll/">计算机科学理论</a></li>
+	                        	<li id="001301000010"><a href="https://www.ccf.org.cn/xspj/jsjtxxydmt/">计算机图形学与多媒体</a></li>
+	                        	<li id="001301000011"><a href="https://www.ccf.org.cn/xspj/rgzn/">人工智能</a></li>
+	                        	<li id="001301000012"><a href="https://www.ccf.org.cn/xspj/rjjhypsjs/">人机交互与普适计算</a></li>
+	                        	<li id="001301000013"><a href="https://www.ccf.org.cn/xspj/jc/zh/xx/">交叉/综合/新兴</a></li>
+	                        	<li id="001301000014"><a href="https://www.ccf.org.cn/xspj/lxwm/">联系我们</a></li>
+	                    </ul>
+                    
+    			</div>
+    			<div class="col-md-10">
+                    <div class="g-box1">
+                    	<div><p style="text-indent: 2em; text-align: center;"><span style="font-size: 20px; font-family: 黑体, SimHei;">中国计算机学会推荐国际学术会议和期刊目录</span></p><p style="text-indent: 2em; text-align: left;">2014年12月，中国计算机学会（CCF）启动新一轮《中国计算机学会推荐国际学术会议和期刊目录》（简称“目录”）更新工作，本次更新的原则是：在2013年1月发布的“目录”（第三版）的基础上进行微调，十个领域保持不变，但适当修正个别领域的名称，修正后的十个领域分别为： 1）计算机体系结构／高性能计算／存储系统； 2）计算机网络；3）网络与信息安全；4）软件工程/系统软件/程序设计语言；5）数据库/数据挖掘/内容检索；6）计算机科学理论；7）计算机图形学与多媒体；8）人工智能；9）人机交互与普适计算；10）交叉/新兴／综合等。期刊和会议的推荐类别保持不变，仍分为A、B、C三类。其中，会议论文指“Full paper”或“regular paper”，会议上发表的Short paper, Poster, Demo paper, Technical Brief, summary等不计入。需要说明的是，一些出版社发行的magazine未纳入本“目录”的推荐期刊列表中。</p><p style="text-indent: 2em; text-align: left;"><span style="line-height: 1.6;">本次“目录”更新工作分为三个阶段完成：提议受理阶段，领域责任专家（或专家组）审议和推荐阶段，以及终审专家组投票表决阶段。根据CCF的授权和工作安排，整个“目录”更新工作由CCF学术工委主持并组织CCF专家完成。同时，CCF学术工委还负责完成了在审议和表决阶段所需要的期刊会议的相关数据和各项指标的收集整理和分析工作以及其它辅助工作。</span></p><p style="text-indent: 2em; text-align: left;"><span style="line-height: 1.6;">本次修订共收到经由23个CCF专业委员会提交的135份更新提议，在审议过程中，CCF学术工委充分尊重这些建议，对每一条建议均进行了认真的研究。对于那些有事实依据和充分论证的建议，给予采纳。在确定《目录》的过程中，既考虑了会议和刊物的质量，也考虑了不同领域间的大致平衡。显而易见，期刊和会议的数量和质量本身具有变化性，《目录》也只能通过定期更新以尽可能体现其变化。CCF欢迎业界专家对该新《目录》提出建议和意见，以便下次修订时参考。</span></p><p style="text-indent: 2em; text-align: left;"><span style="line-height: 1.6;">必须指出的是，本《目录》是CCF认为值得计算机界研究者们发表研究成果的一个推荐列表，其目的不是作为学术评价的（唯一）依据，而仅作为CCF的推荐建议供业界参考，因此不建议任何单位将此《目录》简单作为学术评价的依据。如果由于将此《目录》作为学术评价的依据而引起纠纷，本学会不承担任何责任。</span></p><p style="text-indent: 2em; text-align: left;"><span style="line-height: 1.6;">此次《目录》修订工作是CCF学者共同努力的结果，期间得到国内外众多专家学者的支持，许多专家提出了很多宝贵的建议并提供了很多相关的客观数据，在此致以诚挚的谢意。</span></p><p style="text-indent: 2em; text-align: left;">中国计算机学会学术工作委员会</p><p style="text-indent: 2em; text-align: left;">2015年12月21日</p><p style="text-indent: 2em; text-align: left;">　　<br><span style="text-indent: 2em; line-height: 1.6;">整本下载：</span></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32826" title="CCF推荐国际学术会议和期刊目录（下载）.pdf" filerela="32826" target="_blank" style="text-indent: 2em; line-height: 1.6;">CCF推荐国际学术会议和期刊目录（下载）.pdf</a><br><span style="line-height: 1.6; text-indent: 2em;">分篇下载：</span><br></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32829" title="计算机体系结构并行与分布计算存储系统.pdf" filerela="32829" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32829" title="计算机体系结构并行与分布计算存储系统.pdf" filerela="32829" target="_blank" style="text-indent: 2em; line-height: 1.6;">计算机体系结构并行与分布计算存储系统.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32830" title="计算机网络.pdf" filerela="32830" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32830" title="计算机网络.pdf" filerela="32830" target="_blank" style="text-indent: 2em; line-height: 1.6;">计算机网络.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32831" title="网络与信息安全.pdf" filerela="32831" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32831" title="网络与信息安全.pdf" filerela="32831" target="_blank" style="text-indent: 2em; line-height: 1.6;">网络与信息安全.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32832" title="软件工程-系统软件-程序设计语言.pdf" filerela="32832" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32832" title="软件工程-系统软件-程序设计语言.pdf" filerela="32832" target="_blank" style="text-indent: 2em; line-height: 1.6;">软件工程-系统软件-程序设计语言.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32833" title="数据库-数据挖掘-内容检索.pdf" filerela="32833" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32833" title="数据库-数据挖掘-内容检索.pdf" filerela="32833" target="_blank" style="text-indent: 2em; line-height: 1.6;">数据库-数据挖掘-内容检索.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32827" title="计算机科学理论.pdf" filerela="32827" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32827" title="计算机科学理论.pdf" filerela="32827" target="_blank" style="text-indent: 2em; line-height: 1.6;">计算机科学理论.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32835" title="计算机图形学与多媒体.pdf" filerela="32835" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32835" title="计算机图形学与多媒体.pdf" filerela="32835" target="_blank" style="text-indent: 2em; line-height: 1.6;">计算机图形学与多媒体.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32837" title="人工智能.pdf" filerela="32837" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32837" title="人工智能.pdf" filerela="32837" target="_blank" style="text-indent: 2em; line-height: 1.6;">人工智能.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32838" title="人机交互与普适计算.pdf" filerela="32838" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32838" title="人机交互与普适计算.pdf" filerela="32838" target="_blank" style="text-indent: 2em; line-height: 1.6;">人机交互与普适计算.pdf</a></p><p style="text-indent: 2em; text-align: left;"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32840" title="交叉综合新兴.pdf" filerela="32840" target="_blank"></a></p><p style="text-align: left;"><img id="fileExt" src="./关于目录-CCF推荐排名_files/pdf.gif" title="pdf" onerror="src=&#39;/images/filetype/unknown.gif&#39;;this.onerror=null;" data-bd-imgshare-binded="1"><a href="http://www.ccf.org.cn/ccf/contentcore/resource/download?ID=32840" title="交叉综合新兴.pdf" filerela="32840" target="_blank" style="text-indent: 2em; line-height: 1.6;">交叉综合新兴.pdf</a></p><p><br style="text-indent: 2em; text-align: left;"></p></div>
+                    </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	
+<!-- 底部 -->
+<div class="foot">
+  <div class="footer-top">
+    <div class="container">
+      <div class="col-md-9">
+        <div class="row">
+      
+          
+          
+          <!-- 活动会议  -->
+          <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            
+              <div class="title"><a href="https://www.ccf.org.cn/events/hdrl/">活动会议</a></div>
+              <ul class="list-unstyled">
+                
+                  
+                    <li><a href="https://www.ccf.org.cn/events/hdrl/">活动日历</a></li>
+                    <li><a href="http://cncc.ccf.org.cn/">CNCC</a></li>
+                    <li><a href="https://www.ccf.org.cn/yocsef/">YOCSEF</a></li>
+                    <li><a href="https://www.ccf.org.cn/events/adl/">ADL</a></li>
+                    <li><a href="http://www.noi.cn/">NOI</a></li>
+                    <li><a href="http://cspro.org/lead/application/ccf/login.jsp">CSP</a></li>
+                    <li><a href="https://www.ccf.org.cn/tf/">TF</a></li>
+                    <li><a href="https://www.ccf.org.cn/ccsp/">CCSP</a></li>
+                    <li><a href="https://www.ccf.org.cn/events/zjgx/">走进高校</a></li>
+                    <li><a href="https://www.ccf.org.cn/events/llfp/">吕梁扶贫</a></li>
+                    <li><a href="http://yef2018.yocsef.org.cn/">青年精英大会</a></li>
+                    <li><a href="https://www.ccf.org.cn/events/hytjhy/">会员推荐会议</a></li>
+                    <li><a href="https://www.ccf.org.cn/events/hyzw/">专委会议·征文</a></li>
+                    <li><a href="https://www.ccf.org.cn/wljy2017/">未来计算机教育峰会</a></li>
+                    <li><a href="https://www.ccf.org.cn/-jsjkcggdjb/">计算机课程改革导教班</a></li>
+                    <li><a href="https://www.ccf.org.cn/yess/index/">青年人才发展计划</a></li>
+                    <li><a href="http://dragonstar.ict.ac.cn/dragonstar/index.asp">龙星计划</a></li>
+                    <li><a href="https://www.ccf.org.cn/history/">中国计算机历史记忆</a></li>
+                 
+              </ul>
+            
+          </div>
+          
+          <!-- 会员  -->
+          <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            
+              <div class="title"><a href="https://www.ccf.org.cn/c/2017-03-07/584831.shtml">会员</a></div>
+            
+            <ul class="list-unstyled">
+              
+                
+                      
+                    <li><a href="https://www.ccf.org.cn/xspj/gyml/#;" onclick="memberLogin()">会员登录</a></li>
+                  
+                  
+                  
+                  
+                    <li><a href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00006">会员信息管理</a></li>
+                  
+                  
+                  
+                    <li><a href="http://web.ccf.org.cn/CCF/reg.action?flag=0">加入CCF</a></li>
+                  
+                  
+                  
+                    <li><a href="http://web.ccf.org.cn/CCF/frame.action?menuShowFlag=B00021">会员交费</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/c/2016-11-19/533528.shtml">会员条例</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/c/2017-03-07/584831.shtml">会员权益</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/membership/rhwd/">入会问答</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/membership/hyfc/hs/">会员风采</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/membership/ttmembership/">团体会员</a></li>
+                  
+                  
+                  
+                    <li><a href="http://sso.ccf.org.cn/CCF/hytj.htm">会员推荐会员</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/membership/tjjrieeecs-acm/">特价加入IEEE CS</a></li>
+                  
+                  
+                  
+                    <li><a href="https://www.ccf.org.cn/tjjracm/">特价加入ACM</a></li>
+                  
+                  
+                  
+                    <li><a href="http://webtest.ccf.org.cn/ccf/member/linkMyAttention?SiteID=122">我的CCF</a></li>
+                  
+                                             
+            </ul>
+          </div>      
+          
+          <!-- 数字图书馆  -->
+          <!--div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            <cms:catalog alias="sztsg">
+              <div class="title"><a href="${Catalog.Link}">${Catalog.Name}</a></div>
+              <ul class="list-unstyled">
+                <cms:catalog alias="${Catalog.Alias}" level="Child">
+                  <z:list>                               
+                    <z:if condition="${Catalog.Name=='电子刊A'}">
+                      <li><a href="${Catalog.Link}">电子刊</a></li>
+                    </z:if>
+                    <z:else>
+                      <li><a href="${Catalog.Link}">${Catalog.Name}</a></li>
+                    </z:else>
+                  </z:list>
+                </cms:catalog> 
+              </ul>
+            </cms:catalog> 
+          </div-->    
+               <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            
+              <div class="title"><a href="http://dl.ccf.org.cn/index.html">数字图书馆</a></div>
+              <ul class="list-unstyled">
+                
+                                              
+               
+                   <li><a href="http://dl.ccf.org.cn/cccf/list">通讯</a></li>
+                     <li><a href="http://dl.ccf.org.cn/journal/journalIndex">期刊</a></li>
+                   <li><a href="http://dl.ccf.org.cn/meeting/meetingIndex">会议</a></li>
+                   <li><a href="http://dl.ccf.org.cn/books/booksList.html">图书</a></li>
+                   <li><a href="http://dl.ccf.org.cn/lecture/lectureIndex">讲稿</a></li>
+                   <li><a href="http://dl.ccf.org.cn/audioVideo/audioVideoList.html">音视频</a></li>
+                   <li><a href="http://dl.ccf.org.cn/topic/index">专题</a></li>
+                   <li><a href="http://dl.ccf.org.cn/atlas/atlas">图集</a></li>
+           
+                  
+                  
+                 
+              </ul>
+             
+          </div>   
+          <!-- 专业委员会  -->
+          <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            
+              <div class="title"><a href="https://www.ccf.org.cn/tc/zwjj/">专委</a></div>
+              <ul class="list-unstyled">
+                
+                  
+                    <li><a href="https://www.ccf.org.cn/tc/zwjj/">专委简介</a></li>
+                    <li><a href="https://www.ccf.org.cn/tc/gzwd/">工作问答</a></li>
+                    <li><a href="https://www.ccf.org.cn/c/2016-11-30/550505.shtml">专委条例</a></li>
+                    <li><a href="https://www.ccf.org.cn/tc/zwpgbf/">专委评估办法</a></li>
+                    <li><a href="https://www.ccf.org.cn/tc/xggd/">相关规定</a></li>
+                    <li><a href="https://www.ccf.org.cn/tc/zlxz/">相关表单下载</a></li>
+                    <li><a href="https://www.ccf.org.cn/tc/zwmd/dmtjstc/">专委名单</a></li>
+                    <li><a href="https://www.ccf.org.cn/zwhyxw/">专委会议新闻</a></li>
+                    <li><a href="https://www.ccf.org.cn/zwhyzw/">会议通知·征文</a></li>
+                
+              </ul>                              
+                
+          </div>
+          
+          
+          <!-- 奖励 -->
+          <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+            
+              <div class="title"><a href="https://www.ccf.org.cn/awards/">奖励</a></div>
+              <ul class="list-unstyled">
+                
+                  
+                    
+                      <li>    
+                        <a href="https://www.ccf.org.cn/awards/jldt/">奖励动态</a>
+                      </li>	  							        
+                    
+                    
+                      <li>    
+                        <a href="https://www.ccf.org.cn/awards/lnhjqk/2018/qb/">历年获奖名单</a>
+                      </li>	  							        
+                    
+                    
+                      <li>    
+                        <a href="https://www.ccf.org.cn/awards/jxtj/">奖项推荐</a>
+                      </li>	  							        
+                    
+                    
+                      <li>    
+                        <a href="https://www.ccf.org.cn/awards/pjtl/">评奖条例</a>
+                      </li>	  							        
+                    
+                    
+                      <li>    
+                        <a href="https://www.ccf.org.cn/awards/pjjg/">评奖机构</a>
+                      </li>	  							        
+                    
+                    
+              </ul>                           
+             
+          </div> 
+          
+          <!--关于CCF  -->
+          <div class="footer-list col-md-2 col-sm-12 col-xs-12">
+                                 
+              <div class="title"><a href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">关于CCF</a></div>
+              <ul class="list-unstyled">
+                
+                  
+                    <li><a href="https://www.ccf.org.cn/c/2016-11-19/533517.shtml">CCF简介</a></li>
+                    <li><a href="https://www.ccf.org.cn/about/tlyfg/">条例与法规</a></li>
+                    <li><a href="https://www.ccf.org.cn/about/zzjg/lsh/">组织机构</a></li>
+                    <li><a href="https://www.ccf.org.cn/c/2017-01-10/571276.shtml">联系我们</a></li>
+                    <li><a href="https://www.ccf.org.cn/ccfjob/jrwm/">CCF招聘</a></li>
+                    <li><a href="https://www.ccf.org.cn/dj/">CCF党建</a></li>
+                  
+              </ul>
+                           
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h3 class="text-center">关注我们</h3>
+        <p><a href="http://weibo.com/ccforgcn"><img src="./关于目录-CCF推荐排名_files/foot-img1.jpg" class="center-block" data-bd-imgshare-binded="1"></a></p>
+        <p><img src="./关于目录-CCF推荐排名_files/foot-img2.jpg" class="center-block" data-bd-imgshare-binded="1"></p>
+        <div class="text-center">官方微信</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-btm">
+    <div class="container">
+      <div class="flogo col-md-4 col-xs-12"><img src="./关于目录-CCF推荐排名_files/footer-btm.png" data-bd-imgshare-binded="1"></div>
+      <div class="fdr col-md-8 col-xs-12">
+        <p><span>版权所有 中国计算机学会</span><span>技术支持：<a href="http://www.zving.com/" class="text-white" target="_blank">泽元软件</a></span></p>
+        <p><span>联系电话： (+86)10 6256 2503</span><span>邮件：ccf@ccf.org.cn</span><span>京ICP备13000930号-4</span><span>京公网安备11010802017125号</span></p>
+               <p><span>网站建议或者意见请发送邮件：suggest@ccf.org.cn</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_share_slide jiathis_share_32x32 hidden-xs hidden-sm" id="jiathis_share_slide">
+
+  <!--分享-->
+  <div class="bdsharebuttonbox bdshare-button-style0-32" data-bd-bind="1539878972481">
+   
+    <a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+     <!--<a href="#" class="jiathis_share_gotop" ></a>-->
+  </div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{},"image":{"viewList":["sqq","weixin","tsina"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["sqq","weixin","tsina"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://www.ccf.org.cn/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  
+  <!-- 在线留言 -->
+  <div class="" style="background: #4d96d6;padding:7px;margin-top: 10px;display:none;">
+    <dl style="margin-bottom:0;">
+      <a href="https://www.ccf.org.cn/ccf/message/list?boardId=69&amp;SiteID=122">
+        <dt><img src="./关于目录-CCF推荐排名_files/messageIcon.png" data-bd-imgshare-binded="1"></dt>
+        <dd class="text-white ">在线留言</dd>
+      </a>
+    </dl>
+  </div>
+  <!-- 在线留言 -->
+  <!-- 返回旧网站 -->
+  <!--div class="" style="background: #4d96d6;padding:7px;margin-top: 10px;">
+    <dl style="margin-bottom:0;">
+      <a href="http://history.ccf.org.cn/sites/ccf/">
+        <dd class="text-white ">返回旧版</dd>
+      </a>
+    </dl>
+  </div-->
+  <!-- 返回旧网站 -->
+</div>
+<!-- JiaThis Button END -->
+<style>
+  .bd_weixin_popup{min-width:250px;min-height: 315px;}
+  .bdshare-button-style0-32 a{width:42px;height:42px;}
+  #jiathis_share_slide{ position:fixed!important; right:0px!important;left: inherit!important; background:url(/images/share-bg.png) no-repeat!important; width:45px!important; height:154px;top:50%;margin-top:-127px;border:none; border-radius:0px; text-align:center;}
+  .bdsharebuttonbox .jiathis_share_gotop{ background:url(/images/share-icon4.png) no-repeat!important; height:32px; width:26px;position: absolute;bottom: 5px;right: 9px; border-bottom:none;}
+  .bdsharebuttonbox .jiathis_share_slide_top{ display:none;}
+  #jiathis_share_slide .jiathis_style_32x32{padding-left:5px!important;margin-top: 7px;}
+  .bdsharebuttonbox .bds_sqq{ background:url(/images/share-icon1.png) no-repeat center center;}
+  .bdsharebuttonbox .bds_weixin{ background:url(/images/share-icon2.png) no-repeat center center;}
+  .bdsharebuttonbox .bds_tsina{ background:url(/images/share-icon3.png) no-repeat center center;}
+  .bdsharebuttonbox a.jtico_jiathis{ display:none!important;}
+  .bdsharebuttonbox a span{margin-top:3px;}
+</style> 
+<script>
+// 返回顶部
+$('.fix-ul .top').click(function(){
+    $('body,html').animate({
+        'scrollTop':0
+    }, 500);
+});
+$(window).scroll(function(){
+    var _top = $(window).scrollTop();
+    if( _top<100 ){
+        $('.fix-ul').stop().fadeOut();
+    }else{
+        $('.fix-ul').stop().fadeIn();
+    }
+});
+
+var curCatalogInnerCode = "001301000003";  
+
+for ( var i = 1, len = curCatalogInnerCode.length; i < len / 6 + 1; i++) {
+    var innerCode = curCatalogInnerCode.substring(0, i * 6);
+    var catalogElement = document.getElementById(innerCode);
+    if (catalogElement) {
+        catalogElement.className += " on";
+    }
+}
+
+for ( var i = 1, len = curCatalogInnerCode.length; i < len / 18 + 1; i++) {
+    var innerCode = curCatalogInnerCode.substring(0, i * 18);
+    var catalogElement = document.getElementById(innerCode);
+    if (catalogElement) {
+        catalogElement.className += " on";
+    }
+}
+
+//详细页图片处理
+$(function(){
+	if($(window).width() < 992){
+		$(".articleCon img").removeAttr("style");
+		$(".articleCon img").addClass("img-responsive center-block");
+	}
+})
+</script>
+     
+
+<script src="./关于目录-CCF推荐排名_files/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=122&CatalogInnerCode=001301000003&Type=Article&LeafID=569124&Dest=http://www.ccf.org.cn/ccf/stat/dealer");
+</script>
+
+<!-- App=ZCMS(CCF内容管理系统) 2.4.27091,CostTime=734,PublishDate=2017-07-24 15:16:05 -->
+
+<iframe frameborder="0" id="bdSharePopup_selectshare1539878972483bg" class="bdselect_share_bg" style="display:none;" src="./关于目录-CCF推荐排名_files/saved_resource.html"></iframe><div id="bdSharePopup_selectshare1539878972483box" style="display: none;" share-type="selectshare" class="bdselect_share_box" data-bd-bind="1539878972483"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style0-32"><div class="bdselect_share_partners"><a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_sqq" data-cmd="sqq"></a><a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_weixin" data-cmd="weixin"></a><a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_tsina" data-cmd="tsina"></a></div><a href="https://www.ccf.org.cn/xspj/gyml/#" class="bds_more" data-cmd="more"></a></ul></div></div><div id="#{id}" class="sr-bdimgshare sr-bdimgshare-#{type} sr-bdimgshare-#{size} sr-bdimgshare-#{color}" style="height:#{height}px;line-height:#{lineHeight}px;font-size:#{fontSize}px;width:#{width}px;display:none;"><div class="bdimgshare-bg"></div><div class="bdimgshare-content bdsharebuttonbox bdshare-button-style#{style}-#{size}"><label class="bdimgshare-lbl">#{text}</label>#{list}</div></div></body></html>

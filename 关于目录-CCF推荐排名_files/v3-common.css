@@ -1,0 +1,74 @@
+body {
+ background-color: white;
+ font: 13px, "Microsoft YaHei", "\u5FAE\u8F6F\u96C5\u9ED1", "Arial", "SimSun"
+}
+
+.search {}
+.search-submit {}
+.search-query {}
+.search-titleonly {}
+.search-synonym {}
+
+.register-username {}
+.register-email {}
+
+.member-register {}
+.member-login {}
+.member-logout {}
+.member-favorites {}
+.member-username {}
+.member-span-logined {}
+.member-span-login {}
+.member-forgetpassword {}
+.member-menu {}
+.front-link {}
+
+.message-content {}
+.message-anonymous {}
+
+.comment {}
+.comment-listlink {}
+.comment-persontotal {}
+.comment-content {}
+.comment-anonymous {}
+.comment-functions {}
+.comment-anti {}
+.comment-support {}
+.comment-reply {}
+
+.darkred {color: #c01410;}
+.darkblue {color: #024176;}
+a.darkred {color: #c01410;}
+a.darkblue {color: #024176;}
+
+.text-black{color:#000000;}
+
+/* 图片轮播切换到列表查看 */
+.slide-show-list{
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.slide-show-list .item{
+    float: left;
+    display: inline;
+    width: 25%;
+    height: 274px;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.slide-show-list .carousel-control{
+	display: none;
+}
+@media (max-width: 640px){
+	.slide-show-list .item{
+   		width: auto;
+   		height: auto;
+   		float: none;
+   		display: block;
+
+	}
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://dl.ccf.org.cn/drop-down-menu.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=1200">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>下拉菜单</title>
+		<!-- 通用样式 -->
+		<link href="./base.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./bootstrap.min(1).css">
+		<link rel="stylesheet" type="text/css" href="./v3-site(1).css">
+		<script src="./jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./header.js" type="text/javascript" charset="utf-8"></script>
+		</head><body><input type="hidden" id="contextPath" value="">	
+		<style type="text/css">
+			body {
+				border-top: 0 none;
+			}
+			.index-nav .sub {
+				top: 0;
+				border-bottom:0 none;
+			}
+			.index-nav .sub .meeting-media .media-body h3 a {
+				text-overflow: -o-ellipsis-lastline;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				max-height: 60px;
+			}
+			.list-unstyled ul li{
+				text-overflow: -o-ellipsis-lastline;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+			}
+			.index-nav .sub .meeting-nav h3 a{
+				color: #2f3034;
+			}
+			
+			.index-nav .sub .meeting-list ul li a:hover{
+				color: #810b21;
+				text-decoration: none;
+			}
+		</style>
+	
+
+	
+		<ul class="index-nav list-unstyled">
+			<li>
+				<div class="sub container" style="display: block;width:100%;">
+					<div class="row">
+						<div class="col-md-4" sty="">
+							<div class="meeting-nav">
+
+								<h3 class="text-left"><a target="_blank" href="https://dl.ccf.org.cn/index.html">数字图书馆首页</a></h3>
+
+								<div class="row">
+
+									<a target="_blank" href="https://dl.ccf.org.cn/cccf/list" class="col-md-6 text-left">CCCF</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/journal/journalIndex" class="col-md-6 text-left">期刊</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/meeting/meetingIndex" class="col-md-6 text-left">会议</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/books/booksList.html" class="col-md-6 text-left">图书</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/lecture/lectureIndex" class="col-md-6 text-left">讲稿</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/audioVideo/audioVideoList.html" class="col-md-6 text-left">音视频</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/topic/index" class="col-md-6 text-left">专题</a>
+
+									<a target="_blank" href="https://dl.ccf.org.cn/atlas/atlas" class="col-md-6 text-left">图集</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 meeting-media" id="relatedImg"><div class="media">	<div class="media-left">		<img src="./1539542837397059640.jpg" style="width:93px;height:61px;" class="img-responsive">	</div>	<div class="media-body">		<h3><a title="中国计算机学会通讯2018年第10期" href="javascript:toXhtx(&#39;2018&#39;,&#39;10&#39;)">中国计算机学会通讯2018年第10期</a></h3></div></div><div class="media">	<div class="media-left">		<img src="./1534228873475009586.jpg" style="width:93px;height:61px;" class="img-responsive">	</div>	<div class="media-body">		<h3><a title="中国计算机学会通讯2018年第8期" href="javascript:toXhtx(&#39;2018&#39;,&#39;8&#39;)">中国计算机学会通讯2018年第8期</a></h3></div></div><div class="media">	<div class="media-left">		<img src="./1534229531350078543.jpg" style="width:93px;height:61px;" class="img-responsive">	</div>	<div class="media-body">		<h3><a title="中国计算机学会年鉴" href="javascript:toDetailHtml(&#39;books_period&#39;,&#39;4020508749891584&#39;)">中国计算机学会年鉴</a></h3></div></div></div>
+						<div class="col-md-4 meeting-list">
+							<ul class="list-unstyled" id="relatedTitle"><li>	<a title="中国计算机学会通讯2018年第7期" href="javascript:toXhtx(&#39;2018&#39;,&#39;7&#39;)">• 中国计算机学会通讯2018年第7期</a></li><li>	<a title="论坛-关注区块链技术进展" href="javascript:toDetailHtml(&#39;audio_video&#39;,&#39;3982312757708800&#39;)">• 论坛-关注区块链技术进展</a></li><li>	<a title="中国计算机学会通讯2018年第6期" href="javascript:toXhtx(&#39;2018&#39;,&#39;6&#39;)">• 中国计算机学会通讯2018年第6期</a></li><li>	<a title="YOCSEF未来之路-上" href="javascript:toDetailHtml(&#39;audio_video&#39;,&#39;3985305217255424&#39;)">• YOCSEF未来之路-上</a></li><li>	<a title="ADL88-李绿周-量子算法简介" href="javascript:toDetailHtml(&#39;audio_video&#39;,&#39;3911224859854848&#39;)">• ADL88-李绿周-量子算法简介</a></li><li>	<a title="ADL88-翁文康-量子线路导论" href="javascript:toDetailHtml(&#39;audio_video&#39;,&#39;3911167171971072&#39;)">• ADL88-翁文康-量子线路导论</a></li><li>	<a title="ADL88-马雄峰-量子密码简介" href="javascript:toDetailHtml(&#39;audio_video&#39;,&#39;3910067486246912&#39;)">• ADL88-马雄峰-量子密码简介</a></li><li>	<a title="中国计算机学会通讯2018年第4期" href="javascript:toXhtx(&#39;2018&#39;,&#39;4&#39;)">• 中国计算机学会通讯2018年第4期</a></li></ul>
+
+							<!-- <div class="text-left m-t-md">
+								<a target="_blank" href="/dl/">[查看更多数字图书馆资源]</a>
+							</div> -->
+
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	
+	<script type="text/javascript">
+		$(function(){
+			getRelated();
+		});
+		//推荐
+		function getRelated(){
+			var pageNum =1;
+			var pageSize=11;
+			$.ajax({
+				type : "post",
+				url : "/related/getRelatedData",
+				data : {
+					relType : "0",
+					pageNum : pageNum,
+					pageSize : pageSize,
+				},
+				dataType : "json",
+				success : function(res) {
+					if(res.result!="error"){
+						var data =res.data;
+						$("#relatedImg").html("");
+						var html ="";
+						var htmlTitle="";
+						var ids ="";
+						var videoId="";
+						for(var i=0;i<data.length;i++){
+							var type =data[i].type;
+							var cover = data[i].related_cover;
+							if(cover==null || cover==""){
+								cover=data[i].cover;
+							}
+							var title = data[i].title;
+							var id =data[i].id;
+							/*if(type=="books_period"){
+								var date_year=data[i].date_year;
+								var year_end=data[i].year_end;
+								if(date_year!=null && date_year!=""){
+									if(year_end!=null && year_end!=""){
+										title=date_year+"-"+year_end+title;
+									}else{
+										title=date_year+title;
+									}
+								}
+							}*/
+							var journal_type=data[i].journal_type;
+							var date_year=data[i].date_year;
+							var issue=data[i].issue;
+							var gotoUrl='javascript:toDetailHtml(\''+type+'\',\''+id+'\')';
+							if(type=="journal"){
+								if(journal_type == 'IEEEComputer中文版' || journal_type=='技术动态'){
+									gotoUrl= tojournal(journal_type,date_year,issue);
+									title=journal_type+date_year+'年第'+issue+'期';
+									
+								}else{
+									gotoUrl= tojournal(title,date_year,issue);
+									title=title+date_year+'年第'+issue+'期';
+								}
+							}
+							if(type=="xhtx"){
+								gotoUrl='javascript:toXhtx(\''+date_year+'\',\''+issue+'\')';
+								if(title=="" || title==null){
+									title="CCCF";
+								}
+								title=title+date_year+'年第'+issue+'期';
+							}
+							if(i<3){
+								html+='<div class="media">';
+								html+='	<div class="media-left">';
+								html+='		<img src="'+cover+'"  style="width:93px;height:61px;" class="img-responsive"></a>';
+								html+='	</div>';
+								html+='	<div class="media-body">';
+								html+='		<h3><a title="'+title+'" href="'+gotoUrl+'">'+title+'</a></h3></div>';
+								html+='</div>';
+							}else{
+								htmlTitle+='<li>';
+								htmlTitle+='	<a title="'+title+'" href="'+gotoUrl+'">• '+title+'</a>';
+								htmlTitle+='</li>';
+							}
+							
+						}
+						$("#relatedImg").html(html);
+						$("#relatedTitle").html(htmlTitle);
+					}
+					
+				}
+			});
+		}
+		
+	</script>
+</body></html>
