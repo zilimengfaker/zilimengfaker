@@ -3,7 +3,7 @@
 This document is for dicussing the related issues of the main article.
 
 
-1:wangqr(应该也是电子系4或5子班某同学)
+1:wangqr(应该也是电子系4或5字班某同学)
 关于ACM SIGCOMM竞赛的获奖名单
 我确实漏看了，在附件http://conferences.sigcomm.org/sigcomm/2018/src.html里有，Zili Meng确实是ACM SIGCOMM学生研究竞赛的本科生组第一名。关于这个比赛的介绍与它和ACM 学生研究竞赛的关系，参见正文。
 
