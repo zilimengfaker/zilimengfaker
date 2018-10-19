@@ -6,18 +6,21 @@ Chapter 1:
 
 个人简述中介绍之文字：
 
-我是电子系的孟子立。我前三年总学分绩排名电子系第一，先后在清华大学、麻省理工
+"我是电子系的孟子立。我前三年总学分绩排名电子系第一，先后在清华大学、麻省理工
 学院从事网络科学研究，获 ACM SIGCOMM 学生研究竞赛金牌，已发表顶级会议/期刊论
 文 6 篇，其中第一作者论文 3 篇，另有 3 篇论文在投，任学术会议 ACM IMC 2018 Shadow PC
 委员、IEEE TNSM 期刊审稿人。我三年均获电子系最高综合荣誉，获蒋南翔奖学金、国家
 奖学金、唐立新奖学金、高通奖学金及若干单项奖学金，入选清华“未来学者”、“星火计划”
 11 期。曾获首都大学生社会实践优秀成果、清华紫荆三星级志愿者、全国大学生物理竞赛
-一等奖、清华新生军训定向越野前三名等。现（曾）任星火常务理事、系团委实践副组长等。
+一等奖、清华新生军训定向越野前三名等。现（曾）任星火常务理事、系团委实践副组长等。"
 
 
 名词解释：
 
-关于shadow PC的介绍https://conferences.sigcomm.org/imc/2018/shadow/
+关于shadow PC的介绍
+
+https://conferences.sigcomm.org/imc/2018/shadow/
+
 shadow PC是一个主要给学生“练手”的review平台，本科生、博士生均可以报名。shadow PC 能够review会议论文，但他们的review 和真实review以及最后的录取与否的决定无关。也可以称为“模拟PC”。“shadow PC"与"PC"(真正审稿人)的区别，大概是"模拟联合国代表“和”联合国代表”的区别。
 
 
@@ -26,12 +29,21 @@ IEEE TNSM：3区期刊，这个期刊在网上查到的影响因子是0.000（�
 
 
 ACM SIGCOMM 学生研究竞赛：
-关于ACM SIGCOMM学生研究竞赛的介绍http://conferences.sigcomm.org/sigcomm/2018/src.html
-关于ACM 学生研究竞赛的介绍https://src.acm.org/awards
-关于ACM 学生研究竞赛的奖励与获奖者https://src.acm.org/
+关于ACM SIGCOMM学生研究竞赛的介绍
+
+http://conferences.sigcomm.org/sigcomm/2018/src.html
+
+关于ACM 学生研究竞赛的介绍
+
+https://src.acm.org/awards
+
+关于ACM 学生研究竞赛的奖励与获奖者
+
+https://src.acm.org/
+
 ACM 学生研究竞赛是一项学生研究竞赛，分为决赛和预赛。按本科生和研究生（硕士、博士生）单独分组。预赛是每个分会场的比赛，ACM的每个分会举行一次比赛，选出本科生前3名和研究生前3名晋级决赛，并分别给予500、300、200美元的奖励，然后在决赛（ACM学生研究竞赛）进行最后的比拼，最后的获奖者将会额外获得500、300、200美元的奖励。决赛的获奖名单公布在https://src.acm.org/， 无论是本科生还是研究生，在2018年的ACM 学生研究竞赛获奖名单上，都没有见到“Zili Meng"或者”Zili"或者"Meng"的身影。
 该同学获奖的比赛是ACM SIGCOMM学生研究竞赛，在ACM SIGCOMM 学生研究竞赛的介绍中写了会推荐优秀参赛者参加ACM学生研究竞赛，因此在ACM SIGCOMM学生研究竞赛应该是一个预赛，只是不知道推荐”优秀参赛者”参加的是ACM学生研究竞赛的预赛还是决赛。
-ACM SIGCOMM学生研究竞赛的要求是学生报名，然后提交一份SIGCOMM poster and demo, 学生必须是一作，如果不止一个学生参赛，则需要有一个指导老师也署名在这份poster and demo上。这份poster and demo的abstract上限为100词，正文的下限是2页或者800单词（常规的会议学术论文一般为6~12页），必然会发表在ACM SIGCOMM poster and demo上。然后进行评审。参赛者按本科生和研究生分组进行评审。报名的学生必须是ACM member。
+ACM SIGCOMM学生研究竞赛的要求是学生报名，然后提交一份SIGCOMM poster and demo, 学生必须是一作，如果不止一个学生参赛，则需要有一个指导老师也署名在这份poster and demo上。这份poster and demo的abstract上限为100词，正文的下限是2页或者800单词（常规的会议学术论文一般为6~12页），经过pre-selecion后必然会发表在ACM SIGCOMM poster and demo上。然后进行评审。参赛者按本科生和研究生分组进行评审。报名的学生必须是ACM member。
 ACM member是一个交钱就可以注册的https://www.acm.org/membership/join
 学生的年费约为8美元。
 根据这项比赛的介绍，可以认为ACM SIGCOMM poster and demo一作=参加了ACM SIGCOMM学生研究竞赛。
@@ -43,14 +55,14 @@ ACM member是一个交钱就可以注册的https://www.acm.org/membership/join
 
 Chapter 2:
 
-初识科研——人生在勤 不索何获：我与科研相识在大二学年开学时。一个偶然的机会，
+"初识科研——人生在勤 不索何获：我与科研相识在大二学年开学时。一个偶然的机会，
 我参加了新型网络体系结构 SRT，开始接触科研。科研，对于当时的我来说，是一学期读的
 三千页英文论文，是我当时参加的每周一次的大组会和每周若干次的与师兄师姐们的讨论。
 慢慢地，我也能够参与到一些具体的项目中来。2017 年 1 月，我参与的网络功能并行化项
 目形成的一篇论文，最终被网络领域公认排名第一的会议 SIGCOMM17 接收，一举实现了
 清华大学在 SIGCOMM 一作长文中零的突破。此后，我陆续发表了两篇学生第二作者论文，
 其中一篇发表在一区期刊 IEEE JSAC，一些其他作者论文也相继被接收。最终，SRT 获得
-A+的成绩，我也获导师评价“清华成立 SRT 以来，多年来培养的卓越人才的优秀代表”。
+A+的成绩，我也获导师评价“清华成立 SRT 以来，多年来培养的卓越人才的优秀代表”。"
 
 
 SIGCOMM17相关论文可以参见SIGCOMM2017-1.pdf, 题名叫NFP:Enabling Network Function Parallelism in NFV
@@ -77,7 +89,7 @@ SIGCOMM17相关论文可以参见SIGCOMM2017-1.pdf, 题名叫NFP:Enabling Networ
 
 Chapter 3:
 
-渐入佳境——鸿鹄之志 扶摇可接：经过前期的积累，我开始独立进行科研。去年，我
+"渐入佳境——鸿鹄之志 扶摇可接：经过前期的积累，我开始独立进行科研。去年，我
 的第一篇一作论文被软件定义网顶级会议 SOSR17 接收，我也受邀赴美加州参加会议展示论
 文。由于当时还未成年，在签证办理等遇到了许多的问题，还好最终都被一一克服，我也成
 功赴美参会交流。今年，我的第二篇一作论文被通信与网络顶尖级会议 ICC18（《清华目录》
@@ -91,9 +103,11 @@ Chapter 3:
 获 A+类资助，在暑假赴麻省理工学院计算机科学与人工智能实验室交流，成果目前包括多
 篇在投和拟投论文。我在加入星火后担任星火计划的常务理事，为同学们服务；还受邀成为
 闯世界微沙龙的嘉宾，向老师们同学们介绍经验。但我并不满足于以上的荣誉。创造一流，
-走向世界，我希望在国际舞台上展示清华人的实力。
+走向世界，我希望在国际舞台上展示清华人的实力。"
 
-关于CCF会议分类https://www.ccf.org.cn/xspj/gyml/
+关于CCF会议分类
+
+https://www.ccf.org.cn/xspj/gyml/
 
 SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有出现，当然也不能据此就说他是不入流的会议，有些顶级会议，如ICLR，也没有在CCF评级系统里出现。在网上查到SOSR会议的h-index在7左右，确实也不如普通的C类会议（作为对比，前面说的SIGCOMM约是75）。关于会议的h-index，大致可以在https://www.scimagojr.com/journalsearch.php上搜索，不过也只是一个度量，不能完全依照这个评价会议的好坏。
 
@@ -110,7 +124,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 
 清华特奖，你值得拥有！
 
-“一作在投论文什么的”无法查证是否投稿，也不一定被接收，也没什么好分析的。而且特奖评选规则里也说只计算已发表论文。据他自称获得了ACM SIGCOMM 学生研究竞赛的本科生中的第一名，这个我难以查证，欢迎补充相关信息和官方获奖列表。不过这个比赛其实相当于ACM 学生研究竞赛的预赛，而在决赛ACM 学生研究竞赛中，并没有zili meng的获奖名录。这篇两页7个引用文献的poster得了本科生第一，说明该同学的学术能力在“本科生2页poster制作与演讲”中还是佼佼者，还是挺厉害的。
+“一作在投论文什么的”无法查证是否投稿，也不一定被接收，也没什么好分析的。而且特奖评选规则里也说只计算已发表论文。他确实获得了ACM SIGCOMM 学生研究竞赛的本科生中的第一名。不过这个比赛其实相当于ACM 学生研究竞赛的预赛，而在决赛ACM 学生研究竞赛中，并没有zili meng的获奖名录。这篇两页7个引用文献的poster得了本科生第一，说明该同学的学术能力在“本科生2页poster制作与演讲”中还是佼佼者，还是挺厉害的。
 
 另外，他还有一些其他论文，在APNet 2018（会议，未收录CCF） GEN: A GPU-Accelerated Elastic Framework for NFV中第六作者，在IWQOS（Intl Workshop on Quality of Service）（期刊，影响因子0.75左右）中有一篇“学生第二作者”（第三作者）文章OFM: Optimized Flow Migration for NFV Elasticity Control。
 
@@ -120,7 +134,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 
 2：一作CCF 未收录会议SOSR 一篇
 
-3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),可得 ACM SIGCOMM demo and poster 一作一篇
+3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),通过pre-selection,可得 ACM SIGCOMM demo and poster 一作一篇
 
 4：三作（“学生第二作者“）一区会议JACS 一篇
 
@@ -138,7 +152,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 
 Chapter 4:
 
-国际领先——吾心所向 虽远必至：在今年 SIGCOMM 大会上，我不仅有一篇一作论文
+"国际领先——吾心所向 虽远必至：在今年 SIGCOMM 大会上，我不仅有一篇一作论文
 被录取，同时还以此参加了 SIGCOMM 学生研究竞赛。当时我作为大三学生，是包括博士、
 硕士等参赛者中年级最低的。经过数十位评委的多轮评审，我最终获得了学生研究竞赛低年
 级组唯一的金牌。这是自 2010 年以来，中国在 SIGCOMM 学生研究竞赛中获得的唯一金牌，
@@ -150,7 +164,7 @@ Chapter 4:
 影响力的成果，一直以来我都坚持一个原则，就是尽量只投顶级会议。然而网络领域顶级会
 议论文录取率一般在 15%左右，论文被拒成为了无法避免的情况。尽管我目前已经发表了 6
 篇论文，但是如果统计投稿次数的话，我已经投稿了 16 次。在屡败屡战中支撑我步履不停
-的，是我对网络近乎痴狂的热情，更是清华教会我的“日日行，不怕千万里”的脚踏实地。
+的，是我对网络近乎痴狂的热情，更是清华教会我的“日日行，不怕千万里”的脚踏实地。"
 
 
 这篇通篇都是理想与抱负，也没什么点可以说。翻译一下几个名词：
@@ -169,7 +183,7 @@ Chapter 4:
 
 Chapter 5 & 6:
 
-全面发展——立德立言 无问西东：我学业基础扎实。我三年 GPA 均在电子系位列前十，
+"全面发展——立德立言 无问西东：我学业基础扎实。我三年 GPA 均在电子系位列前十，
 这三年的总学分绩排在全系第一。同时，第一学位课程已经获得 170 学分，48%的计分课程
 获得了 4.0（满绩）。我目前还在读管理学双学位。我五次参加社会实践，其中四次带队，并
 入选了第二期江村学者训练营。我任支队长的赴安徽调研支队获得了首都大学生社会实践优
@@ -183,7 +197,7 @@ Chapter 5 & 6:
 运共同体”。我如今已经顺利获得了网络研究院免试直博生资格，希望能够做一名国际领先
 的网络科学家，为建设网络强国而奋斗。学海无涯，真理无穷，幸而进一寸有进一寸的欢
 喜，迈一步有迈一步的坚定。这是我科研梦的一个新起点——我将从促进我国网络科学
-革新的梦想出发，去推动世界的改变！
+革新的梦想出发，去推动世界的改变！"
 
 这两段不涉及具体科研成果和经历，而该同学申请的是“科研创新”方向，我专业知识不足，就不评论了。该同学在评选相关奖学金过程中有没有对其科研成果加以修饰等，就不得而知了。
 
@@ -197,7 +211,7 @@ Chapter 5 & 6:
 
 2：一作CCF 未收录会议SOSR 一篇
 
-3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),可得 ACM SIGCOMM demo and poster 一作一篇
+3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),通过pre-selection可得 ACM SIGCOMM demo and poster 一作一篇
 
 4：三作（“学生第二作者“）一区会议JACS 一篇
 
