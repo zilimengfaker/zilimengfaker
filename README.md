@@ -212,3 +212,5 @@ Chapter 5 & 6:
 9：让导师给一个三区期刊TNSM的审稿人资格
 
 
+
+关于评论的补充放在 supplymentary material and discussion.md中
