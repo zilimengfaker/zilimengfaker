@@ -169,7 +169,7 @@ Chapter 4:
 
 这篇通篇都是理想与抱负，也没什么点可以说。翻译一下几个名词：
 
-“不仅有一篇一作论文被录取，同时还以此参加了 SIGCOMM 学生研究竞赛”：参加竞赛必须要投稿一篇一作sigcomm demo and poster（至少2页，800英文单词，且一定会被接收），而demo and poster在SIGCOMM会议中是和main conference 区别开来单列的。
+“不仅有一篇一作论文被录取，同时还以此参加了 SIGCOMM 学生研究竞赛”：参加竞赛必须要投稿一篇一作sigcomm demo and poster（至少2页，800英文单词，且通过pre selection后一定会被接收），而demo and poster在SIGCOMM会议中是和main conference 区别开来单列的。
 
 ”包括博士、硕士等参赛者中年级最低的“：这个比赛其实是本科生和本科生比，硕士博士和硕士博士比，突出这点只能说明竞争对手少。
 
