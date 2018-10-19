@@ -47,7 +47,7 @@ ACM SIGCOMM学生研究竞赛的要求是学生报名，然后提交一份SIGCOM
 ACM member是一个交钱就可以注册的https://www.acm.org/membership/join
 学生的年费约为8美元。
 根据这项比赛的介绍，可以认为ACM SIGCOMM poster and demo一作=参加了ACM SIGCOMM学生研究竞赛。
-我找不到公开的ACM SIGCOMM学生研究竞赛的获奖名单，不知道这位同学是否实际获奖。但鉴于他发表了一份ACM SIGCOMM poster and demo一作，可以认为他确实支付了注册费，成为了ACM member，参加了比赛，并投稿了一篇至少800英文单词的poster。
+该同学发表了一份ACM SIGCOMM poster and demo一作，可以认为他确实支付了注册费，成为了ACM member，参加了比赛，并投稿了一篇至少800英文单词的poster，并通过了pre selection。
 
 
 
