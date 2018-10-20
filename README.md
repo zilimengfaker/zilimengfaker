@@ -295,7 +295,7 @@ niconiconi同学（上海交大ACM班）的回复：
 
 那一篇SODA岂不是上天，这可是清华特奖啊
 
-（注：SODA: The Annual ACM-SIAM Symposium on Discrete Algorithms，数学与理论计算机算法领域的顶级会议，2015级交叉信息研究院本科生中有至少5人发表至少一篇SODA，均未报名参与特奖评比）
+（注：SODA: The Annual ACM-SIAM Symposium on Discrete Algorithms，数学与理论计算机算法领域的顶级会议，2015级交叉信息研究院本科生中有至少5人参与发表至少一篇SODA，均未报名参与特奖评比）
 
 那位中NIPS的同学岂不是上天了，怎么没在最终名单里
 
