@@ -120,7 +120,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 其实，论文所属的会议等级本不重要，而论文的内容才是真正重要的。我也把此论文附在附件中(coco.pdf)，诸君见仁见智。这篇文章写的略长，有6页半和28个参考文献。
 
 关于"我的第三篇一作论文也被前述公认排名第一会议 SIGCOMM18（《清华目录》顶尖级会议）录取，我也受
-邀赴匈牙利向大会展示自己的成果。”，就是指名为PAM: When Overloaded, Push Your Neighbor Aside！的这篇SIGCOMM demo and poster文章，也附在附件中（sigcommposter.pdf)，此文章有两页和7个参考文献。根据前述对于ACM SIGCOMM 学生研究竞赛的描述，可以认为这篇poster其实等同于“该同学参加了ACM SIGCOMM 学生研究竞赛”，或“该同学是一个ACM member"。花50RMB一年，任意中国学生就可以在https://services.acm.org/public/qj/proflevel/SChinaLevel.html上注册。然后就可以报名参加一次ACM SIGCOMM 学生研究竞赛，报名了就可以提交并必被接收一份ACM SIGCOMM demo and poster，然后就可以在论文列表中隐去demo and poster而只写ACM SIGCOMM，成为万众敬仰的特奖大神。
+邀赴匈牙利向大会展示自己的成果。”，就是指名为PAM: When Overloaded, Push Your Neighbor Aside！的这篇SIGCOMM demo and poster文章，也附在附件中（sigcommposter.pdf)，此文章有两页和7个参考文献。根据前述对于ACM SIGCOMM 学生研究竞赛的描述，可以认为这篇poster其实等同于“该同学参加了ACM SIGCOMM 学生研究竞赛”，或“该同学是一个ACM member"。花50RMB一年，任意中国学生就可以在https://services.acm.org/public/qj/proflevel/SChinaLevel.html上注册。然后就可以报名参加一次ACM SIGCOMM 学生研究竞赛，报名了就可以提交，通过pre-selection就会被接收一份ACM SIGCOMM demo and poster，然后就可以在论文列表中隐去demo and poster而只写ACM SIGCOMM，成为万众敬仰的特奖大神。
 
 清华特奖，你值得拥有！
 
