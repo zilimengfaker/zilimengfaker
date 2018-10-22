@@ -136,7 +136,7 @@ SOSR全称是The Symposium on SDN Research，这个会议在CCF评级中没有�
 
 3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),通过pre-selection,可得 ACM SIGCOMM demo and poster 一作一篇
 
-4：三作（“学生第二作者“）一区会议JACS 一篇
+4：三作（“学生第二作者“）一区会议JSAC 一篇
 
 5：三作（”学生第二作者“）IWQOS一篇
 
@@ -213,7 +213,7 @@ Chapter 5 & 6:
 
 3：花50元每年注册acm member,报名参加ACM SIGCOMM SRC（Student Research Competition),通过pre-selection可得 ACM SIGCOMM demo and poster 一作一篇
 
-4：三作（“学生第二作者“）一区会议JACS 一篇
+4：三作（“学生第二作者“）一区会议JSAC 一篇
 
 5：三作（”学生第二作者“）IWQOS一篇
 
@@ -350,8 +350,6 @@ The Grand Finals:
 关于我是谁，我本来也没打算匿名，算是一个彩蛋吧。凭什么人家这种程度的造假都可以实名还拿出来公示，我给大家提供一点真实信息讨论，反而要匿名？
 
 关于各种对我个人的质疑与人身攻击，我觉得与讨论的主题没有关系。
-
-
 
 
 
