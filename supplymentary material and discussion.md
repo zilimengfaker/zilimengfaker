@@ -9,7 +9,7 @@ This document is for dicussing the related issues of the main article.
 
 
 
-2:电子系四字班范承泽同学的质疑：
+2:电子系四字班范承泽同学(这位同学是与孟同学同组同学，其简历中也将自己所发的SIGCOMM demo and poster写为ACM SIGCOMM)的质疑：
 
 我认真的读完了整个README.md
 
